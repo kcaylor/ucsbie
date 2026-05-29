@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ucsbie"
+version = "0.1.0"
+description = "Harvest UCSB Innovation & Entrepreneurship public data — technologies available for licensing and UCSB ventures — with agent-friendly JSON output."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "UCSB Office of Technology & Industry Alliances" }]
+keywords = ["ucsb", "technology-transfer", "licensing", "startups", "mcp", "innovation"]
+dependencies = ["requests>=2.25"]
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.2"]
+
+[project.scripts]
+ucsbie = "ucsbie.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/UCSB-TIA/ucsbie"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ucsbie"]

@@ -1,0 +1,128 @@
+openapi: 3.0.3
+info:
+  title: UCSB Innovation & Entrepreneurship Data API
+  description: >
+    Read-only access to UCSB technologies available for licensing (UCOP
+    technology-transfer portal) and UCSB ventures (TIA Startup Database).
+    Public data, refreshed monthly. Contact innovation@ucsb.edu.
+  version: "1.0.0"
+servers:
+  - url: https://ucsbie.vercel.app
+    description: Replace with your actual deployment URL after the first deploy.
+paths:
+  /api/technologies:
+    get:
+      operationId: listTechnologies
+      summary: List UCSB technologies available for licensing.
+      parameters:
+        - name: q
+          in: query
+          description: Keyword in title, summary, or description.
+          schema: { type: string }
+        - name: field
+          in: query
+          description: Top-level category (e.g. Semiconductors, Medical, Energy).
+          schema: { type: string }
+        - name: disclosed_after
+          in: query
+          description: Minimum UC-case disclosure year (e.g. 2022).
+          schema: { type: integer }
+        - name: patent
+          in: query
+          description: Patent maturity filter.
+          schema: { type: string, enum: [issued, pending] }
+        - name: limit
+          in: query
+          schema: { type: integer, default: 200 }
+      responses:
+        "200":
+          description: Matching technologies.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  count: { type: integer }
+                  technologies:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        tech_id: { type: string }
+                        title: { type: string }
+                        summary: { type: string }
+                        disclosed_year: { type: integer, nullable: true }
+                        uc_case: { type: string, nullable: true }
+                        fields: { type: array, items: { type: string } }
+                        inventors: { type: array, items: { type: string } }
+                        patent_status: { type: string }
+                        url: { type: string }
+  /api/ventures:
+    get:
+      operationId: listVentures
+      summary: List UCSB ventures (startups founded on or affiliated with UCSB).
+      parameters:
+        - name: q
+          in: query
+          description: Keyword in company name, description, or founders.
+          schema: { type: string }
+        - name: status
+          in: query
+          schema: { type: string, enum: [Active, Acquired, Inactive] }
+        - name: industry
+          in: query
+          description: Sector substring (e.g. Healthcare, Information Technology).
+          schema: { type: string }
+        - name: licensed
+          in: query
+          description: If true, only ventures that license UCSB IP.
+          schema: { type: boolean }
+        - name: founded_after
+          in: query
+          schema: { type: integer }
+        - name: limit
+          in: query
+          schema: { type: integer, default: 300 }
+      responses:
+        "200":
+          description: Matching ventures.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  count: { type: integer }
+                  ventures:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        company: { type: string }
+                        status: { type: string }
+                        founded: { type: integer, nullable: true }
+                        industry: { type: string }
+                        licenses_ucsb_ip: { type: boolean }
+                        capital_raised: { type: string, nullable: true }
+                        founders: { type: array, items: { type: string } }
+                        website: { type: string, nullable: true }
+                        about: { type: string }
+  /api/categories:
+    get:
+      operationId: listCategories
+      summary: List technology category facets with counts.
+      responses:
+        "200":
+          description: Category counts (overlapping).
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  count: { type: integer }
+                  categories:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        category: { type: string }
+                        count: { type: integer }

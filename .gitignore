@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Node (only used transiently to vendor Chart.js; the vendored file IS committed)
+node_modules/
+
+# OS
+.DS_Store
+
+# Vercel
+.vercel/

@@ -50,7 +50,7 @@ Send `docs/USING-WITH-AI.md` and point people to the level that fits:
 - **Developers:** `pip install ucsbie`, or register the MCP server with their client.
 
 Suggested announcement: link the **draft Marketplace** for feedback, and attach the one-page
-"Using UCSB I&E data in your AI tools" guide. Collect feedback at innovation@ucsb.edu.
+"Using UCSB I&E data in your AI tools" guide. Collect feedback at caylor@ucsb.edu.
 
 ## Notes
 - Keep the `noindex` tag on the draft Marketplace until TIA approves an official launch.

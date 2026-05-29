@@ -1,0 +1,13 @@
+# Vercel only needs the static site (public/) and the serverless API (api/).
+# Everything below is for pip/MCP distribution or local tooling — keep it OUT of the
+# Vercel build so Vercel doesn't try to resolve/lock the Python package (the `mcp`
+# extra requires Python >=3.10 and breaks Vercel's dependency resolver).
+pyproject.toml
+src/
+mcp/
+scripts/
+data/
+docs/
+README.md
+LICENSE
+.gitignore

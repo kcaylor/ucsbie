@@ -1,7 +1,7 @@
 # UCSB I&E data — dictionary
 
 Public data, refreshed monthly. Sources: UCOP technology-transfer portal
-(technologies) and the TIA Startup Database (ventures). Questions: innovation@ucsb.edu.
+(technologies) and the TIA Startup Database (ventures). Questions: info@innovation.ucsb.edu.
 
 ## Files
 - `ucsb-ie.json` — everything (technologies + ventures + meta) in one file.
@@ -45,4 +45,4 @@ but are not identical.
   unique technology count.
 - "Stage" is not a field; `capital_raised` + `founded` + `status` are the available proxies.
 - All figures are as published on the public sources; for anything authoritative or current,
-  contact innovation@ucsb.edu.
+  contact info@innovation.ucsb.edu.

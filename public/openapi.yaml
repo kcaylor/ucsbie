@@ -4,11 +4,11 @@ info:
   description: >
     Read-only access to UCSB technologies available for licensing (UCOP
     technology-transfer portal) and UCSB ventures (TIA Startup Database).
-    Public data, refreshed monthly. Contact innovation@ucsb.edu.
+    Public data, refreshed monthly. Contact info@innovation.ucsb.edu.
   version: "1.0.0"
 servers:
   - url: https://ucsbie.vercel.app
-    description: Replace with your actual deployment URL after the first deploy.
+    description: Production (UCSB Innovation Marketplace API).
 paths:
   /api/technologies:
     get:

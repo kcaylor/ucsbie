@@ -10,7 +10,7 @@ Pick the row that matches your tool and comfort level.
 | 3. MCP server / CLI | Real-time tools inside an agent | Claude, Gemini CLI, ChatGPT dev mode, scripts | developer |
 
 The data is **public** (UCOP techtransfer portal + TIA Startup Database). Contact for any
-listing: **innovation@ucsb.edu**.
+listing: **info@innovation.ucsb.edu**.
 
 ---
 

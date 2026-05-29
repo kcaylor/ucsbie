@@ -8,7 +8,18 @@ import json, os
 from collections import Counter
 from http.server import BaseHTTPRequestHandler
 
-DATA = os.path.join(os.path.dirname(__file__), "..", "public", "data", "technologies.json")
+def _data(name):
+    here = os.path.dirname(__file__)
+    for c in (os.path.join(here, "..", "public", "data", name),
+              os.path.join(here, "public", "data", name),
+              os.path.join(os.getcwd(), "public", "data", name),
+              os.path.join("/var/task", "public", "data", name)):
+        if os.path.exists(c):
+            return c
+    return os.path.join(here, "..", "public", "data", name)
+
+
+DATA = _data("technologies.json")
 
 
 class handler(BaseHTTPRequestHandler):

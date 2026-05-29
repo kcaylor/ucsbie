@@ -46,7 +46,7 @@ CAMPUS CODES (tech only)
     SB Santa Barbara · B Berkeley · LA Los Angeles · SD San Diego · SF San Francisco
     D Davis · I Irvine · R Riverside · SC Santa Cruz · M Merced · ALL = whole system
 
-CONTACT (for downstream use)  innovation@ucsb.edu
+CONTACT (for downstream use)  info@innovation.ucsb.edu
 """
 
 import argparse
@@ -70,7 +70,7 @@ TT_BASE = "https://techtransfer.universityofcalifornia.edu"
 TT_LIST = TT_BASE + "/Default?RunSearch=true&campus={campus}"
 TT_DETAIL = TT_BASE + "/NCD/{tid}.html"
 STARTUP_URL = "https://tia.ucsb.edu/startup-database/"
-CONTACT = "innovation@ucsb.edu"
+CONTACT = "info@innovation.ucsb.edu"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 

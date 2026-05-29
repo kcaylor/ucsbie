@@ -139,9 +139,9 @@ legend{float:left;margin-right:7px;font-size:12px;font-weight:700;text-transform
 <header>
  <h1>UCSB Innovation Marketplace</h1>
  <p>Explore technologies available for licensing and ventures emerging from UC&nbsp;Santa&nbsp;Barbara.</p>
- <p class="contact">Questions or interest? Contact the Office of Technology &amp; Industry Alliances: <a href="mailto:innovation@ucsb.edu">innovation@ucsb.edu</a></p>
+ <p class="contact">Questions or interest? Contact the Office of Technology &amp; Industry Alliances: <a href="mailto:info@innovation.ucsb.edu">info@innovation.ucsb.edu</a></p>
 </header>
-<div class="draftbar" role="note"><strong>Draft preview.</strong> Built from public UCSB data for feedback — not an official UCSB page. Data updated __DATE__. Feedback: <a href="mailto:innovation@ucsb.edu?subject=UCSB%20Innovation%20Marketplace%20feedback">innovation@ucsb.edu</a></div>
+<div class="draftbar" role="note"><strong>Draft preview.</strong> Built from public UCSB data for feedback — not an official UCSB page. Data updated __DATE__. Feedback: <a href="mailto:caylor@ucsb.edu?subject=UCSB%20Innovation%20Marketplace%20feedback">caylor@ucsb.edu</a></div>
 <nav class="tablist" role="tablist" aria-label="Choose a view">
  <button role="tab" id="tab-overview" aria-selected="true" aria-controls="lens-overview" tabindex="0">Overview</button>
  <button role="tab" id="tab-license" aria-selected="false" aria-controls="lens-license" tabindex="-1">License a Technology</button>
@@ -214,7 +214,7 @@ legend{float:left;margin-right:7px;font-size:12px;font-weight:700;text-transform
 <script>/*__CHARTJS__*/</script>
 <script>
 const DATA=__DATA__;const TECH=DATA.tech,VENT=DATA.vent,CATS=DATA.cats,SECT=DATA.sectors;
-const CONTACT="innovation@ucsb.edu";
+const CONTACT="info@innovation.ucsb.edu";
 const NAVY="#003660",GOLD="#febc11",ACC="#09508a";
 const esc=s=>(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 function money(v){if(v==null)return '—';if(v>=1000)return '$'+(v/1000).toFixed(2)+'B';if(v>=1)return '$'+(v<10?v.toFixed(2):Math.round(v))+'M';if(v>0)return '$'+Math.round(v*1000)+'K';return '$0';}

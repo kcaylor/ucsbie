@@ -3,7 +3,7 @@
 Tools and a public website for exploring **UCSB technologies available for licensing**
 (UCOP technology-transfer portal) and **UCSB ventures** (TIA Startup Database). One harvester
 feeds a CLI, an MCP server, a small HTTP API, an AI-ready data bundle, and the
-**UCSB Innovation Marketplace** web page. Public data; contact **innovation@ucsb.edu**.
+**UCSB Innovation Marketplace** web page. Public data; contact **info@innovation.ucsb.edu**.
 
 > Status: **draft / research preview** for feedback. Not an official UCSB page.
 

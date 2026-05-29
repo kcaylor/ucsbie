@@ -54,7 +54,7 @@ def main():
     meta = {"generated": today,
             "source_technologies": "https://techtransfer.universityofcalifornia.edu/default?campus=SB",
             "source_ventures": "https://tia.ucsb.edu/startup-database/",
-            "contact": "innovation@ucsb.edu",
+            "contact": "info@innovation.ucsb.edu",
             "note": "Public UCSB I&E data. Technologies available for licensing + UCSB ventures. Refreshed monthly."}
 
     json.dump({"meta": meta, "technologies": techs, "ventures": vents},

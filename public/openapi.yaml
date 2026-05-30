@@ -1,19 +1,19 @@
 openapi: 3.0.3
 info:
-  title: UCSB Innovation & Entrepreneurship Data API
+  title: UC Santa Barbara Innovation & Entrepreneurship Data API
   description: >
-    Read-only access to UCSB technologies available for licensing (UCOP
-    technology-transfer portal) and UCSB ventures (TIA Startup Database).
+    Read-only access to UC Santa Barbara technologies available for licensing (UCOP
+    technology-transfer portal) and UC Santa Barbara ventures (TIA Startup Database).
     Public data, refreshed monthly. Contact info@innovation.ucsb.edu.
   version: "1.0.0"
 servers:
   - url: https://ucsbie.vercel.app
-    description: Production (UCSB Innovation Marketplace API).
+    description: Production (UC Santa Barbara Innovation Marketplace API).
 paths:
   /api/technologies:
     get:
       operationId: listTechnologies
-      summary: List UCSB technologies available for licensing.
+      summary: List UC Santa Barbara technologies available for licensing.
       parameters:
         - name: q
           in: query
@@ -60,7 +60,7 @@ paths:
   /api/ventures:
     get:
       operationId: listVentures
-      summary: List UCSB ventures (startups founded on or affiliated with UCSB).
+      summary: List UC Santa Barbara ventures (startups founded on or affiliated with UC Santa Barbara).
       parameters:
         - name: q
           in: query
@@ -75,7 +75,7 @@ paths:
           schema: { type: string }
         - name: licensed
           in: query
-          description: If true, only ventures that license UCSB IP.
+          description: If true, only ventures that license UC Santa Barbara IP.
           schema: { type: boolean }
         - name: founded_after
           in: query

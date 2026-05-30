@@ -5,11 +5,11 @@ build-backend = "hatchling.build"
 [project]
 name = "ucsbie"
 version = "0.1.0"
-description = "Harvest UCSB Innovation & Entrepreneurship public data — technologies available for licensing and UCSB ventures — with agent-friendly JSON output."
+description = "Harvest UC Santa Barbara Innovation & Entrepreneurship public data — technologies available for licensing and UC Santa Barbara ventures — with agent-friendly JSON output."
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-authors = [{ name = "UCSB Office of Technology & Industry Alliances" }]
+authors = [{ name = "UC Santa Barbara Office of Technology & Industry Alliances" }]
 keywords = ["ucsb", "technology-transfer", "licensing", "startups", "mcp", "innovation"]
 dependencies = ["requests>=2.25"]
 

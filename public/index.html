@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
-<title>UCSB Innovation Marketplace — Technologies & Ventures</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23003660'/%3E%3Ctext x='32' y='45' font-family='Arial,Helvetica,sans-serif' font-size='32' font-weight='700' fill='%23febc11' text-anchor='middle'%3ESB%3C/text%3E%3C/svg%3E">
+<title>UC Santa Barbara Innovation Marketplace — Technologies & Ventures</title>
 <style>
 :root{--navy:#003660;--navy2:#09508a;--gold:#febc11;--ink:#1c2530;--bg:#f5f7fa;--card:#fff;--line:#d4dbe6;--green:#2f6a2a;--blue:#09508a;--grey:#586273;--focus:#0a5fd6}
 *{box-sizing:border-box}
@@ -13,6 +14,7 @@ a{color:var(--navy2)}a:hover{text-decoration:underline}
 button{font:inherit}
 header{background:linear-gradient(120deg,var(--navy),#062c4d);color:#fff;padding:24px 32px;border-bottom:4px solid var(--gold)}
 header h1{margin:0;font-size:24px;font-weight:800}
+header .eyebrow{margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
 header p{margin:5px 0 0;color:#eef4fb;font-size:14px}
 header .contact{margin-top:8px;font-size:13.5px;color:#eef4fb}header .contact a{color:var(--gold);font-weight:700}
 header a:focus-visible{outline-color:var(--gold)}
@@ -83,11 +85,12 @@ legend{float:left;margin-right:7px;font-size:12px;font-weight:700;text-transform
 </style></head><body>
 <a class="skip-link" href="#main">Skip to main content</a>
 <header>
- <h1>UCSB Innovation Marketplace</h1>
+ <p class="eyebrow">UC Santa Barbara</p>
+ <h1>Innovation Marketplace</h1>
  <p>Explore technologies available for licensing and ventures emerging from UC&nbsp;Santa&nbsp;Barbara.</p>
  <p class="contact">Questions or interest? Contact UC Santa Barbara's Innovation &amp; Entrepreneurship Team: <a href="mailto:info@innovation.ucsb.edu">info@innovation.ucsb.edu</a></p>
 </header>
-<div class="draftbar" role="note"><strong>Draft preview.</strong> Built from public UCSB data for feedback — not an official UCSB page. Data updated 2026-05-29. Feedback: <a href="mailto:caylor@ucsb.edu?subject=UCSB%20Innovation%20Marketplace%20feedback">caylor@ucsb.edu</a></div>
+<div class="draftbar" role="note"><strong>Draft preview.</strong> Built from public UC Santa Barbara data for feedback — not an official UC Santa Barbara page. Data updated 2026-05-30. Feedback: <a href="mailto:caylor@ucsb.edu?subject=UC%20Santa%20Barbara%20Innovation%20Marketplace%20feedback">caylor@ucsb.edu</a></div>
 <nav class="tablist" role="tablist" aria-label="Choose a view">
  <button role="tab" id="tab-overview" aria-selected="true" aria-controls="lens-overview" tabindex="0">Overview</button>
  <button role="tab" id="tab-license" aria-selected="false" aria-controls="lens-license" tabindex="-1">License a Technology</button>
@@ -103,12 +106,12 @@ legend{float:left;margin-right:7px;font-size:12px;font-weight:700;text-transform
   <div class="card"><h3 id="cCatH">Technologies available by field</h3><div class="chartbox"><canvas id="cCat" aria-hidden="true"></canvas></div><div class="sr-only" id="cCatSR"></div></div>
   <div class="card"><h3 id="cSectH">Active ventures by sector</h3><div class="chartbox"><canvas id="cSect" aria-hidden="true"></canvas></div><div class="sr-only" id="cSectSR"></div></div>
  </div>
- <p class="foot">Two public datasets: technologies available for licensing (UCOP technology-transfer portal) and UCSB ventures (TIA Startup Database). Choose a view above to explore and get in touch. Data updated 2026-05-29.</p>
+ <p class="foot">Two public datasets: technologies available for licensing (UCOP technology-transfer portal) and UC Santa Barbara ventures (TIA Startup Database). Choose a view above to explore and get in touch. Data updated 2026-05-30.</p>
 </section>
 
 <section class="lens" id="lens-license" role="tabpanel" aria-labelledby="tab-license" tabindex="0" hidden>
  <h2 class="sr-only">License a technology</h2>
- <p class="lead">Browse UCSB inventions available for licensing. Filter by field, sort by newest, open any item for the full description, then request licensing information in one click.</p>
+ <p class="lead">Browse UC Santa Barbara inventions available for licensing. Filter by field, sort by newest, open any item for the full description, then request licensing information in one click.</p>
  <div class="toolbar">
   <div class="row">
    <label class="sr-only" for="lq">Search technologies</label>
@@ -128,7 +131,7 @@ legend{float:left;margin-right:7px;font-size:12px;font-weight:700;text-transform
 
 <section class="lens" id="lens-invest" role="tabpanel" aria-labelledby="tab-invest" tabindex="0" hidden>
  <h2 class="sr-only">Explore ventures</h2>
- <p class="lead">Explore ventures founded on UCSB research and by UCSB innovators. Filter to active companies by sector and founding year, sort by capital raised, and request a warm introduction through UCSB.</p>
+ <p class="lead">Explore ventures founded on UC Santa Barbara research and by UC Santa Barbara innovators. Filter to active companies by sector and founding year, sort by capital raised, and request a warm introduction through UC Santa Barbara.</p>
  <div class="toolbar">
   <div class="row">
    <label class="sr-only" for="vq">Search ventures</label>
@@ -139,7 +142,7 @@ legend{float:left;margin-right:7px;font-size:12px;font-weight:700;text-transform
    <select id="vsort"><option value="cap">Capital raised</option><option value="recent">Newest</option><option value="az">Company A–Z</option></select>
   </div>
   <div class="row">
-   <label style="font-size:13.5px"><input type="checkbox" id="vlic"> Licenses UCSB IP only</label>
+   <label style="font-size:13.5px"><input type="checkbox" id="vlic"> Licenses UC Santa Barbara IP only</label>
    <label class="lbl" for="vyear">Founded after</label>
    <select id="vyear"><option value="">Any year</option></select>
   </div>
@@ -181,7 +184,7 @@ function money(v){if(v==null)return '—';if(v>=1000)return '$'+(v/1000).toFixed
 function mailto(subject,body){return 'mailto:'+CONTACT+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);}
 function techMail(t){
  const subject='Licensing interest: '+t.t+(t.case?(' (UC Case '+t.case+')'):'')+' — Tech ID '+t.id;
- const body='Hello UCSB Office of Technology & Industry Alliances,\n\nOur organization would like to learn more about licensing the following UCSB technology:\n\n'+
+ const body='Hello UC Santa Barbara Office of Technology & Industry Alliances,\n\nOur organization would like to learn more about licensing the following UC Santa Barbara technology:\n\n'+
   '• Technology: '+t.t+'\n• Tech ID: '+t.id+'\n'+(t.case?('• UC Case: '+t.case+'\n'):'')+(t.cy?('• Disclosed: '+t.cy+'\n'):'')+
   (t.top&&t.top.length?('• Field(s): '+t.top.join(', ')+'\n'):'')+(t.inv&&t.inv.length?('• Inventor(s): '+t.inv.join(', ')+'\n'):'')+'• Listing: '+t.url+'\n\n'+
   'So we can route your inquiry, please share:\n• Company / organization: \n• Your name & title: \n• Email & phone: \n• Intended field of use / application: \n• Stage & desired timeline: \n\nThank you!';
@@ -189,7 +192,7 @@ function techMail(t){
 }
 function ventMail(v){
  const subject='Investor interest: '+v.co;
- const body='Hello UCSB Office of Technology & Industry Alliances,\n\nWe are an investor interested in the following UCSB venture and would welcome an introduction or more information:\n\n'+
+ const body='Hello UC Santa Barbara Office of Technology & Industry Alliances,\n\nWe are an investor interested in the following UC Santa Barbara venture and would welcome an introduction or more information:\n\n'+
   '• Company: '+v.co+'\n'+(v.ind?('• Sector: '+v.ind+'\n'):'')+(v.yr?('• Founded: '+v.yr+'\n'):'')+(v.status?('• Status: '+v.status+'\n'):'')+
   (v.musd?('• Capital raised (disclosed): '+money(v.musd)+'\n'):'')+(v.web?('• Website: '+(v.web.startsWith('http')?v.web:'https://'+v.web)+'\n'):'')+
   '\nAbout us:\n• Fund / firm: \n• Your name & title: \n• Email: \n• Investment focus & typical check size: \n• Timeline: \n\nThank you!';
@@ -201,7 +204,7 @@ const activeV=VENT.filter(v=>v.status==='Active');
 const capTotal=VENT.filter(v=>v.musd).reduce((s,v)=>s+v.musd,0);
 document.getElementById('ovkpis').innerHTML=[
  [TECH.length,'Technologies to license'],[CATS.length,'Technology fields'],
- [VENT.length,'UCSB ventures'],[activeV.length,'Active ventures'],
+ [VENT.length,'UC Santa Barbara ventures'],[activeV.length,'Active ventures'],
  [capTotal>=1000?'$'+(capTotal/1000).toFixed(1)+'B':money(capTotal),'Capital raised (disclosed)'],
 ].map(k=>`<li class="kpi"><div class="n">${k[0]}</div><div class="l">${k[1]}</div></li>`).join('');
 
@@ -264,11 +267,11 @@ function renderV(){
   return `<li class="item">
    <button type="button" class="titlebtn" data-co="${esc(v.co)}" aria-label="View details for ${esc(v.co)}">${esc(v.co)}</button>
    <div class="meta"><span class="badge ${sb}">${esc(v.status||'—')}</span> ${v.yr?('· founded '+v.yr):''} ${v.musd?('· '+money(v.musd)+' raised'):''}</div>
-   <div class="tagrow">${v.ind?'<span class="tag">'+esc(v.ind)+'</span>':''}${v.lic?'<span class="tag">licenses UCSB IP</span>':''}</div>
+   <div class="tagrow">${v.ind?'<span class="tag">'+esc(v.ind)+'</span>':''}${v.lic?'<span class="tag">licenses UC Santa Barbara IP</span>':''}</div>
    <p class="desc">${esc(v.about||'')}</p>
    <div class="meta">${(v.founders||[]).length?('Founders: '+esc(v.founders.join(', '))):''}</div>
    <div class="acts">${v.web?('<a class="btn btn-ghost" href="'+(v.web.startsWith('http')?v.web:'https://'+v.web)+'" target="_blank" rel="noopener" aria-label="Website for '+esc(v.co)+' (opens in new tab)">Website</a>'):''}
-   <a class="btn btn-primary" href="${mailto(m.subject,m.body)}" aria-label="Request an introduction to ${esc(v.co)} via UCSB">Request an intro via UCSB</a></div></li>`;
+   <a class="btn btn-primary" href="${mailto(m.subject,m.body)}" aria-label="Request an introduction to ${esc(v.co)} via UC Santa Barbara">Request an intro via UC Santa Barbara</a></div></li>`;
  }).join('') : '<li class="empty">No ventures match these filters.</li>';
  document.querySelectorAll('#vcards .titlebtn').forEach(b=>b.onclick=()=>openVenture(b.dataset.co));
 }
@@ -296,12 +299,12 @@ function openVenture(co){const v=VENT.find(x=>x.co===co);if(!v)return;
  const m=ventMail(v);
  const sb=v.status==='Active'?'b-active':v.status==='Acquired'?'b-acquired':'b-inactive';
  document.getElementById('drawer-body').innerHTML=
-  '<p class="d-eyebrow">UCSB Venture'+(v.lic?' · licenses UCSB IP':'')+'</p>'+
+  '<p class="d-eyebrow">UC Santa Barbara Venture'+(v.lic?' · licenses UC Santa Barbara IP':'')+'</p>'+
   '<h2 class="d-title" id="drawer-title">'+esc(v.co)+'</h2>'+
   '<div><span class="badge '+sb+'">'+esc(v.status||'—')+'</span> '+(v.ind?'<span class="tag">'+esc(v.ind)+'</span>':'')+'</div>'+
   (v.about?'<h3>About</h3><p>'+esc(v.about)+'</p>':'')+
   '<h3>Details</h3><p>'+(v.yr?('Founded '+v.yr+'<br>'):'')+(v.musd?('Capital raised: '+money(v.musd)+'<br>'):'')+((v.founders||[]).length?('Founders: '+esc(v.founders.join(', '))+'<br>'):'')+(v.web?('Website: <a href="'+(v.web.startsWith('http')?v.web:'https://'+v.web)+'" target="_blank" rel="noopener">'+esc(v.web)+' (opens in new tab)</a>'):'')+'</p>'+
-  '<a class="cta-big" href="'+mailto(m.subject,m.body)+'">Request an introduction via UCSB</a>';
+  '<a class="cta-big" href="'+mailto(m.subject,m.body)+'">Request an introduction via UC Santa Barbara</a>';
  showDrawer();
 }
 function showDrawer(){

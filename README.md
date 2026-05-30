@@ -1,11 +1,11 @@
-# ucsbie — UCSB Innovation & Entrepreneurship data + Marketplace
+# ucsbie — UC Santa Barbara Innovation & Entrepreneurship data + Marketplace
 
-Tools and a public website for exploring **UCSB technologies available for licensing**
-(UCOP technology-transfer portal) and **UCSB ventures** (TIA Startup Database). One harvester
+Tools and a public website for exploring **UC Santa Barbara technologies available for licensing**
+(UCOP technology-transfer portal) and **UC Santa Barbara ventures** (TIA Startup Database). One harvester
 feeds a CLI, an MCP server, a small HTTP API, an AI-ready data bundle, and the
-**UCSB Innovation Marketplace** web page. Public data; contact **info@innovation.ucsb.edu**.
+**UC Santa Barbara Innovation Marketplace** web page. Public data; contact **info@innovation.ucsb.edu**.
 
-> Status: **draft / research preview** for feedback. Not an official UCSB page.
+> Status: **draft / research preview** for feedback. Not an official UC Santa Barbara page.
 
 ## What's here
 ```
@@ -52,4 +52,4 @@ The Marketplace targets **WCAG 2.1 AA**; see `docs/ACCESSIBILITY.md` (0 axe-core
 contrast verified). Do a manual keyboard + screen-reader pass before any official launch.
 
 ## License
-MIT (code). Data is UCSB's, published publicly by TIA/UCOP. See `LICENSE`.
+MIT (code). Data is UC Santa Barbara's, published publicly by TIA/UCOP. See `LICENSE`.

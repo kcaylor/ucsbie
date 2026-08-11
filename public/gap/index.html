@@ -141,13 +141,14 @@
 <div class="tiles" id="tiles"></div>
 
 <div class="panel">
-  <h2>Programs by GAP category and status <span style="font-weight:400;font-size:12px;color:var(--muted)">— click a segment or category label to filter the list below</span><button class="clearbtn" id="clearChart">✕ clear chart filter</button></h2>
+  <h2>Funding &amp; acceleration programs by GAP category and status <span style="font-weight:400;font-size:12px;color:var(--muted)">— click a segment or category label to filter the list below. Facilities, events and support services sit outside the GAP categories; use the chips below.</span><button class="clearbtn" id="clearChart">✕ clear chart filter</button></h2>
   <div id="bars"></div>
   <div class="legend" id="legend"></div>
 </div>
 
 <div class="filters">
   <span id="catChips"></span>
+  <span id="rtypeChips"></span>
   <select id="layerSel"><option value="">All layers</option></select>
   <span id="statusChips"></span>
   <input type="search" id="q" placeholder="Search programs, operators, sectors…">
@@ -172,7 +173,7 @@
 
 <footer>
   Status key: <b>Active</b> confirmed operating mid-2026 · <b>Planned</b> proposed / in design / pre-launch · <b>Suspended</b> paused, could restart · <b>Unclear</b> live presence but no confirmed current cycle (verify before public listing) · <b>Defunct</b> ended or converted away from venture support.
-  Entries flagged ⚠ have unverified URLs or internal-only figures. Source data: waves vault I&amp;E area + web verification pass, 2026-07-16. Companion files: Excel master database and vault directory note in <i>I&amp;E / Landscape Analysis</i>.
+  Entries flagged ⚠ have unverified URLs or internal-only figures. Source data: waves vault I&amp;E area + web verification pass, 2026-07-16, amended 2026-08-10 from the July 2026 reviewer round (Englander, Margalith, Gartner, Driscoll, Cotter). Entries added from that round are marked ⚠ until their links are independently verified. Companion files: Excel master database and vault directory note in <i>I&amp;E / Landscape Analysis</i>.
 </footer>
 
 <script type="module">
@@ -212,7 +213,7 @@ async function tryUnlock(){
         const blob = new Blob([xp], {type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
-        a.download = 'UCSB GAP Landscape Database (2026-07-16).xlsx';
+        a.download = 'UCSB GAP Landscape Database (2026-08-10).xlsx';
         a.click();
         URL.revokeObjectURL(a.href);
       } finally { dlx.disabled = false; }
@@ -225,8 +226,10 @@ async function tryUnlock(){
 function init(DATA){
 
 const CATS = ["Pre-POC / Pipeline","POC Funds","Startup Accelerators","Institution-Affiliated Venture Funds"];
-const CAT_SHORT = {"Pre-POC / Pipeline":"Pre-POC","POC Funds":"POC","Startup Accelerators":"Accelerators","Institution-Affiliated Venture Funds":"Venture Funds"};
-const CAT_CLS = {"Pre-POC / Pipeline":["var(--cat-prepoc)","var(--cat-prepoc-text)"],"POC Funds":["var(--cat-poc)","var(--cat-poc-text)"],"Startup Accelerators":["var(--cat-accel)","var(--cat-accel-text)"],"Institution-Affiliated Venture Funds":["var(--cat-vc)","var(--cat-vc-text)"]};
+const RTYPES = ["Program","Facility","Event","Support Service"];
+const RT_SHORT = {"Program":"Programs","Facility":"Facilities","Event":"Events","Support Service":"Support"};
+const CAT_SHORT = {"":"Resource","Pre-POC / Pipeline":"Pre-POC","POC Funds":"POC","Startup Accelerators":"Accelerators","Institution-Affiliated Venture Funds":"Venture Funds"};
+const CAT_CLS = {"":["var(--grid)","var(--muted)"],"Pre-POC / Pipeline":["var(--cat-prepoc)","var(--cat-prepoc-text)"],"POC Funds":["var(--cat-poc)","var(--cat-poc-text)"],"Startup Accelerators":["var(--cat-accel)","var(--cat-accel-text)"],"Institution-Affiliated Venture Funds":["var(--cat-vc)","var(--cat-vc-text)"]};
 const STATUSES = ["Active","Planned","Suspended","Unclear","Defunct"];
 const ST_ICON = {Active:"●",Planned:"◔",Suspended:"⏸",Unclear:"?",Defunct:"✕"};
 const ST_FILL = {Active:"var(--st-active)",Planned:"var(--st-planned)",Suspended:"var(--st-suspended)",Unclear:"var(--st-unclear)",Defunct:"var(--st-defunct)"};
@@ -317,6 +320,12 @@ document.getElementById('clearChart').onclick = ()=>{
 };
 
 // filters
+const fRTypes = new Set();
+const rtypeChips = document.getElementById('rtypeChips');
+rtypeChips.innerHTML = RTYPES.map(t=>`<button class="chip" data-t="${t}">${RT_SHORT[t]}</button>`).join(' ');
+rtypeChips.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{
+  const t=b.dataset.t; fRTypes.has(t)?fRTypes.delete(t):fRTypes.add(t); b.classList.toggle('on'); render();
+});
 const catChips = document.getElementById('catChips');
 catChips.innerHTML = CATS.map(c=>`<button class="chip" data-c="${c}">${CAT_SHORT[c]}</button>`).join(' ');
 catChips.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{
@@ -342,25 +351,27 @@ function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').repla
 function render(){
   let rows = DATA.filter(e=>
     (!fCats.size || fCats.has(e.category)) &&
+    (!fRTypes.size || fRTypes.has(e.resource_type||'Program')) &&
     (!fStatuses.size || fStatuses.has(e.status)) &&
     (!fLayer || e.layer===fLayer) &&
-    (!q || [e.name,e.operator,e.sector_focus,e.notes,e.what_it_provides,e.layer].join(' ').toLowerCase().includes(q))
+    (!q || [e.name,e.operator,e.sector_focus,e.notes,e.what_it_provides,e.layer,e.ucsb_contact,e.resource_type].join(' ').toLowerCase().includes(q))
   );
   if(sortK) rows = rows.slice().sort((a,b)=>{
     const A=(a[sortK]||'').toString().toLowerCase(), B=(b[sortK]||'').toString().toLowerCase();
     return (A<B?-1:A>B?1:0)*(sortAsc?1:-1);
   });
-  else rows = rows.slice().sort((a,b)=>CATS.indexOf(a.category)-CATS.indexOf(b.category)||STATUSES.indexOf(a.status)-STATUSES.indexOf(b.status)||a.name.localeCompare(b.name));
+  else rows = rows.slice().sort((a,b)=>((CATS.indexOf(a.category)+1)||99)-((CATS.indexOf(b.category)+1)||99)||STATUSES.indexOf(a.status)-STATUSES.indexOf(b.status)||a.name.localeCompare(b.name));
 
   document.getElementById('count').textContent = `${rows.length} of ${DATA.length} shown`;
   const tb = document.getElementById('tbody');
   tb.innerHTML = rows.map(e=>{
-    const [bg,fg] = CAT_CLS[e.category];
+    const [bg,fg] = CAT_CLS[e.category||''];
+    const catLabel = e.category ? CAT_SHORT[e.category] : (e.resource_type||'Resource');
     const flag = (!e.url_verified || e.status==='Unclear') ? ' <span class="flag" title="URL unverified or status needs direct confirmation">⚠</span>' : '';
     const link = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">↗</a>` : '<span style="color:var(--muted)">—</span>';
     return `<tr class="main" data-id="${e.id}">
       <td><div class="pname">${esc(e.name)}${flag}</div><div class="op">${esc(e.operator)}</div></td>
-      <td><span class="badge" style="background:${bg};color:${fg}">${CAT_SHORT[e.category]}</span></td>
+      <td><span class="badge" style="background:${bg};color:${fg}">${esc(catLabel)}</span></td>
       <td>${esc(e.layer)}</td>
       <td><span class="status" style="color:${ST_TEXT[e.status]}">${ST_ICON[e.status]} ${e.status}</span></td>
       <td>${esc(e.award_or_value)}</td>
@@ -369,12 +380,15 @@ function render(){
       <td>${link}</td>
     </tr>
     <tr class="detail" data-for="${e.id}" style="display:none"><td colspan="8"><dl>
+      ${e.ucsb_contact?`<dt>UCSB contact</dt><dd>${esc(e.ucsb_contact)}</dd>`:''}
+      ${e.call_status?`<dt>Call status</dt><dd>${esc(e.call_status)}</dd>`:''}
       <dt>Status detail</dt><dd>${esc(e.status_detail)}</dd>
       <dt>What it provides</dt><dd>${esc(e.what_it_provides)}</dd>
       <dt>Eligibility</dt><dd>${esc(e.eligibility)}</dd>
       <dt>Stage served</dt><dd>${esc(e.stage_served)}</dd>
       ${e.institutional_participation?`<dt>UCSB/UC upside share</dt><dd>${esc(e.institutional_participation)}</dd>`:''}
       <dt>Strategic notes</dt><dd>${esc(e.notes)}</dd>
+      ${e.public_listing&&!/^Show$/.test(e.public_listing)?`<dt>Public build</dt><dd>${esc(e.public_listing)}</dd>`:''}
       <dt>Sources</dt><dd>${e.sources.map(s=>s.startsWith('http')?`<a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a>`:esc(s)).join(' · ')}</dd>
     </dl></td></tr>`;
   }).join('');

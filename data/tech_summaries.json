@@ -122,5 +122,10 @@
   "23146": "InGaAlN device design with thicker high-indium active layers for better optoelectronic performance",
   "22906": "Integrates ultra-low-loss waveguides with silicon photonics, raising bandwidth and cutting cost",
   "22863": "Electro-optic modulator with 100 GHz bandwidth driven directly by chips using far less power",
-  "22854": "Improved deep brain stimulation for Parkinson's that extends battery life and reduces side effects"
+  "22854": "Improved deep brain stimulation for Parkinson's that extends battery life and reduces side effects",
+  "34803": "Magnetocaloric materials for efficient cryogenic hydrogen-liquefaction cooling, without compressors or refrigerants",
+  "34798": "Benchmark framework predicting ideal eye fixations for scene comprehension, improving eye-movement diagnostics",
+  "34797": "Visual question answering that resolves user intent using inference-time saccades to focus on relevant image regions",
+  "34815": "Bright fluorescent BODIPY dye made without toxic phosgene, labeling both biological and inorganic surfaces",
+  "34831": "Light-activated tool that triggers the cellular stress response on demand, isolated from other signaling pathways."
 }

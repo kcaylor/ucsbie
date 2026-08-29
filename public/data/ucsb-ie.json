@@ -1,12 +1,145 @@
 {
  "meta": {
-  "generated": "2026-05-29",
+  "generated": "2026-08-29",
   "source_technologies": "https://techtransfer.universityofcalifornia.edu/default?campus=SB",
   "source_ventures": "https://tia.ucsb.edu/startup-database/",
   "contact": "info@innovation.ucsb.edu",
   "note": "Public UCSB I&E data. Technologies available for licensing + UCSB ventures. Refreshed monthly."
  },
  "technologies": [
+  {
+   "tech_id": "34831",
+   "title": "Optogenetic Control of the Integrated Stress Response",
+   "summary": "Light-activated tool that triggers the cellular stress response on demand, isolated from other signaling pathways.",
+   "disclosed_year": 2023,
+   "uc_case": "2023-845-0",
+   "fields": [
+    "Biotechnology"
+   ],
+   "categories": [
+    "Biotechnology",
+    "Health"
+   ],
+   "inventors": [
+    "Acosta Alvear, Diego F.",
+    "Batjargal, Taivan",
+    "Wilson, Maxwell"
+   ],
+   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Reference for National Filings 2024/238927 11/21/2024 2023-845   Patent Pending",
+   "patents": [
+    {
+     "country": "Patent Cooperation Treaty",
+     "type": "Reference for National Filings",
+     "number": "2024/238927",
+     "dated": "11/21/2024",
+     "case": "2023-845"
+    }
+   ],
+   "description": "The Integrated Stress Response (ISR) is a conserved signaling network that allows cells to detect and react to cell-intrinsic and environmental stresses including nutritional deficits, mitochondrial dysfunction, redox imbalances, viral infections, harmful RNA conformers, and protein-folding perturbations in the endoplasmic reticulum. Dysregulation of the ISR has been implicated in the pathogenesis of our most widespread diseases, including diabetes, cancer, and neurodegeneration. Understanding the mechanisms that underly ISR computations has been difficult because natural stress inputs activate multiple parallel signaling pathways and classical ISR inducers have pleiotropic effects. The molecular structure and circuitry of the ISR in health and disease have been studied; however, questions remain about how the ISR encodes information at the systems level.",
+   "advantages": "Non-invasive, reversible control of the ISR without causing molecular or cellular damage High-resolution, precise modulation of stress sensor kinase activity Isolates single pathway activation to avoid pleiotropic effects seen with chemical stressors Enables study of stress input dynamics including timing, intensity, and duration Facilitates development of targeted therapies for diseases linked to ISR dysregulation Provides a novel platform to model stress memory and cellular resilience",
+   "url": "https://techtransfer.universityofcalifornia.edu/NCD/34831.html"
+  },
+  {
+   "tech_id": "34815",
+   "title": "Phosgene-Free Synthesis of an Isocyanate-Containing Boron-Dipyrromethene \nFluorescent Probe, Which Allows Direct Fluorescent Labeling of Nucleophilic Sites on Substrates",
+   "summary": "Bright fluorescent BODIPY dye made without toxic phosgene, labeling both biological and inorganic surfaces",
+   "disclosed_year": 2026,
+   "uc_case": "2026-814-0",
+   "fields": [
+    "Materials & Chemicals"
+   ],
+   "categories": [
+    "Materials & Chemicals",
+    "Biological"
+   ],
+   "inventors": [
+    "Garcia IV, Antonio",
+    "Helgeson, Matthew E.",
+    "Srivastava, Samanvaya",
+    "Valentine, Megan"
+   ],
+   "patent_status": "Patent Pending",
+   "patents": [],
+   "description": "Fluorogenic probes and imaging kits are advanced, fluorescent reagents used for high-contrast bioimaging, molecular detection, and real-time tracking of biological events. They are essential tools for live-cell microscopy, disease diagnostics, and drug discovery. Isocyanate–boron-dipyrromethene (BODIPY) dyes are specialized, highly stable, and intense fluorescent probes that are valued for their high quantum yields, photostability, and easily modified structures. BODIPY derivatives bearing isocyanate groups have been created by others. However, current syntheses rely on toxic phosgene-based reagents, which require specialized equipment and expertise and pose significant health and safety concerns. Additionally, the dyes created with phosgene-based reagents have not been demonstrated for labeling inorganic materials. There is a need for alternative processes to create BOPIPY based dyes with safer commercially available reagents.",
+   "advantages": "Safe, phosgene-free synthetic process Bright, stable fluorescence suitable for advanced imaging techniques like confocal FLIM Enables chemical specificity and differentiation of heterogeneous material mixtures through FLIM imaging Accessible synthesis route using commercially available reagents Versatile covalent bonding to a wide range of nucleophilic substrates, including inorganic particles and polymers",
+   "url": "https://techtransfer.universityofcalifornia.edu/NCD/34815.html"
+  },
+  {
+   "tech_id": "34803",
+   "title": "Cryogenic Magnetocaloric Materials and Systems for Efficient Hydrogen Liquefaction Cooling",
+   "summary": "Magnetocaloric materials for efficient cryogenic hydrogen-liquefaction cooling, without compressors or refrigerants",
+   "disclosed_year": 2026,
+   "uc_case": "2026-831-0",
+   "fields": [
+    "Materials & Chemicals"
+   ],
+   "categories": [
+    "Materials & Chemicals",
+    "Other",
+    "Superconductors"
+   ],
+   "inventors": [
+    "Ancheta, Joshua",
+    "Benyacko, Caeli",
+    "Liao, Bolin",
+    "Wilson, Stephen D."
+   ],
+   "patent_status": "Patent Pending",
+   "patents": [],
+   "description": "Efficient refrigeration, in the range of 10-40 K, is increasingly important for emerging technologies including hydrogen liquefaction, superconducting systems, cryogenic sensors, and quantum platforms. Current cryogenic cooling technologies typically rely on vapor compression and expansion cycles, which can be energy intensive, mechanically complex, and difficult to scale efficiently for certain applications. In contrast, magnetocaloric refrigeration uses solid materials to enable cooling without conventional refrigerants or compressor-based cycles. However, development of practical cryogenic magnetocaloric materials remains challenging. Magnetic Refrigeration (MR) has received increasing attention for hydrogen liquefaction, as it can achieve a higher coefficient of performance (COP) at cryogenic temperatures than vapor-compression systems.",
+   "advantages": "Exceptionally large magnetocaloric response with high entropy and temperature changes at moderate magnetic fields Compact, vibration-free solid-state refrigeration eliminating the need for conventional refrigerants or compressors Improved energy efficiency compared to traditional vapor-compression cryogenic cooling methods Broadly applicable across multiple low-temperature technologies and industries Material design strategy enabling discovery of additional high-performance magnetocaloric materials Reduced system size, weight, and cost due to high cooling capacity per unit mass Environmentally friendly refrigeration with fewer moving parts and lower maintenance requirements",
+   "url": "https://techtransfer.universityofcalifornia.edu/NCD/34803.html"
+  },
+  {
+   "tech_id": "34798",
+   "title": "Optimal Perception and Eye-movement Response Assessment",
+   "summary": "Benchmark framework predicting ideal eye fixations for scene comprehension, improving eye-movement diagnostics",
+   "disclosed_year": 2026,
+   "uc_case": "2026-821-0",
+   "fields": [
+    "Medical"
+   ],
+   "categories": [
+    "Medical",
+    "Diagnostics"
+   ],
+   "inventors": [
+    "Eckstein, Miguel P.",
+    "Murlidaran, Shravan"
+   ],
+   "patent_status": "Patent Pending",
+   "patents": [],
+   "description": "Humans make approximately three eye movements per second to direct central vision (the fovea) to regions of interest in scenes. Eye movements are used in diagnostic medicine to assess conditions including concussions, dyslexia, fatigue, and many more. However, most approaches focus on the dynamics of eye movements (e.g., fixation stability, peak velocity, anti-saccades) without analyzing in detail the relationship between the fixations and the semantic content of the fixated visual information. Though where humans direct their gaze is a window into the mind, there is no benchmark theoretical framework that predicts how a human with normal vision and cognition should fixate a real-world scene to accurately comprehend it or answer a particular question as fast as possible. This lack of data limits the capabilities of eye movements as a diagnostic tool.",
+   "advantages": "Models eye movements optimized for complex scene comprehension rather than simple stimuli Integrates state-of-the-art vision-language AI and reinforcement learning for precise fixation prediction Provides quantitative metrics to assess visual and cognitive deficits based on human-to-optimal eye movement comparisons for any visual content and Q&A. Enables evaluation in realistic, ecologically valid contexts with natural images and tasks Supports a wide range of clinical applications, including concussion, ADHD, autism, pediatric vision and other neurological deficits Supports education applications, including reading assessment, learning in science, technology, and mathematics",
+   "url": "https://techtransfer.universityofcalifornia.edu/NCD/34798.html"
+  },
+  {
+   "tech_id": "34797",
+   "title": "Intent Resolution via Inference-time Saccades",
+   "summary": "Visual question answering that resolves user intent using inference-time saccades to focus on relevant image regions",
+   "disclosed_year": 2026,
+   "uc_case": "2026-815-0",
+   "fields": [
+    "Medical",
+    "Imaging",
+    "Research Tools"
+   ],
+   "categories": [
+    "Medical",
+    "Imaging",
+    "Research Tools"
+   ],
+   "inventors": [
+    "Eckstein, Miguel P.",
+    "Karmakar, Srijita",
+    "Madinei, Parsa"
+   ],
+   "patent_status": "",
+   "patents": [],
+   "description": "Visual Question Answering (VQA) represents a fundamental challenge at the intersection of Computer",
+   "advantages": "Training-free approach requiring no model retraining or parameter updates Instant compatibility with existing and future vision-language models Significantly improves accuracy on ambiguous visual questions – from 35.2% to 77.2% Utilizes naturally occurring human eye-tracking data, enhancing user intent understanding Low computational overhead and scalable software-only solution Supports a wide range of applications through integration with common eye-tracking hardware Cost-effective to deploy across large user bases and reduces support costs",
+   "url": "https://techtransfer.universityofcalifornia.edu/NCD/34797.html"
+  },
   {
    "tech_id": "34770",
    "title": "Discovery of a Novel Tetronate Antibiotic & Production Method",
@@ -24,7 +157,7 @@
     "Batool, Zainab",
     "Hai, Yang"
    ],
-   "patent_status": "",
+   "patent_status": "Patent Pending",
    "patents": [],
    "description": "Antibiotic resistance is a mounting global health crisis that causes more than 1 million deaths annually and contributes to millions more. As antibiotic resistance grows, the need for new antibiotics and methods for treating bacterial infections becomes more urgent. Tetronate polyketide natural products constitute a structurally diverse and biologically important class of secondary metabolites, defined by a tetronic acid (4-hydroxy-2(5H)-furanone) moiety embedded within a polyketide-derived scaffold. Members of this family display a broad spectrum of biological activities, including antibacterial, antifungal, phytotoxic, anticancer, and protein tyrosine phosphatase inhibitory effects. There is a need for further identification and development of antibiotic compounds, including tetronate polyketide small molecules and derivatives, that can address infections caused by drug-resistant bacteria.",
    "advantages": "Potent antibacterial activity against drug-resistant Gram-positive pathogens Selective narrow-spectrum activity, reducing impact on beneficial microbiota Genome mining enables targeted discovery of novel antibiotics Synthetic routes allow production of analogues for structure-activity optimization Effective under both aerobic and anaerobic conditions Offers new intellectual property claims with unique mode of action",
@@ -75,13 +208,13 @@
     "McFarland, Eric W.",
     "Qi, Ji"
    ],
-   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Reference for National Filings WO 2023/220731 11/16/2023 2022-984   Patent Pending",
+   "patent_status": "Country Type Number Dated Case United States Of America Published Application 20250313459 10/09/2025 2022-984",
    "patents": [
     {
-     "country": "Patent Cooperation Treaty",
-     "type": "Reference for National Filings",
-     "number": "WO 2023/220731",
-     "dated": "11/16/2023",
+     "country": "United States Of America",
+     "type": "Published Application",
+     "number": "20250313459",
+     "dated": "10/09/2025",
      "case": "2022-984"
     }
    ],
@@ -216,7 +349,7 @@
    "inventors": [
     "Emery, Brian M."
    ],
-   "patent_status": "",
+   "patent_status": "Patent Pending",
    "patents": [],
    "description": "Ocean surface wind observations are critically needed for both research and operational uses. Spatially dependent wind fields are required to constrain numerical weather prediction models and supply search and rescue, pollutant, and algal bloom drift models with high resolution forcing fields. However, obtaining wind and current observations at relevant spatial and temporal scales represents a technical challenge. A gap currently exists in our ability to observe the coastal zone at sufficient resolution: buoy-based observation systems cannot provide high spatial resolution observations, and satellites cannot provide high temporal resolution observations. Land-based High Frequency Radars (HFRs) offer a possible solution to achieving continuous coastal ocean surface winds from HFRs over a wide-area.",
    "advantages": "Potentially provides real-time, continuous, all-weather wind observations alongside ocean surface currents Likely applicable to all HFR systems using groundwave propagation, allowing broad adoption and integration Utilizes existing operational HFR infrastructure without additional hardware deployment Observations could improve coastal ocean models and weather forecasting for various environmental and safety applications Generates high spatial (1-5 km) and temporal (sub-hourly) resolution of coastal wind fields Enables generation of long-term wind data archives for research and operational use Tomographic inversion enhances accuracy and reduces noise in wind estimates Functionally independent wind and current measurements derived from different radar signal components",
@@ -497,13 +630,13 @@
     "Nakamura, Shuji",
     "Yao, Yifan"
    ],
-   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Published Application 2023/168139 09/07/2023 2025-357   Additional Patent Pending",
+   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Published Application WO 2026/112280 05/28/2026 2025-357   Additional Patent Pending",
    "patents": [
     {
      "country": "Patent Cooperation Treaty",
      "type": "Published Application",
-     "number": "2023/168139",
-     "dated": "09/07/2023",
+     "number": "WO 2026/112280",
+     "dated": "05/28/2026",
      "case": "2025-357"
     }
    ],
@@ -688,8 +821,16 @@
     "Tian, Jiayi",
     "Zhang, Zheng"
    ],
-   "patent_status": "Patent Pending",
-   "patents": [],
+   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Published Application WO2026/128915 06/18/2026 2025-347   Additional Patent Pending",
+   "patents": [
+    {
+     "country": "Patent Cooperation Treaty",
+     "type": "Published Application",
+     "number": "WO2026/128915",
+     "dated": "06/18/2026",
+     "case": "2025-347"
+    }
+   ],
    "description": "On-chip training of transformer models has gained significant importance in recent years, due to the growing need for low-latency, energy-efficient and privacy-preserving Al systems. Training machine learning models end-to-end or incrementally, based on local and private data, can reduce dependency on cloud-based resources, enhance data privacy, and allow for real-time adaptability, which makes this training model crucial for applications including internet of things, autonomous systems, and personalized Al. On-device training has been increasingly utilized in sensing, communication, data processing and decision making. However, training modern neural networks remains difficult because it requires large amounts of memory and computing power, which are not available on resource-constrained edge devices. Because of these limitations most proposed solutions focus on-device fine-tuning or transfer learning.",
    "advantages": "Enables the training of larger AI models on edge devices with ~100X model size reduction Achieves 30X to 50X overall memory reduction on FPGA Reduces computing flops significantly for both forward and backward propagations Improves memory and latency performance by optimizing on-chip memory usage Facilitates better energy cost per epoch than conventional GPUs",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/34225.html"
@@ -902,8 +1043,16 @@
     "Christopher, Phillip",
     "Jalil, Anika"
    ],
-   "patent_status": "Patent Pending",
-   "patents": [],
+   "patent_status": "Country Type Number Dated Case United States Of America Published Application 20260027557 01/29/2026 2022-9A0",
+   "patents": [
+    {
+     "country": "United States Of America",
+     "type": "Published Application",
+     "number": "20260027557",
+     "dated": "01/29/2026",
+     "case": "2022-9A0"
+    }
+   ],
    "description": "Ethylene oxide (EO) is a high-volume chemical used extensively to produce major chemicals and myriad consumer products. In 2020, the global production of EO reached 29 million metric tons, and the market is expected to grow. The epoxidation of ethylene by molecular oxygen to produce EO occurs ubiquitously over Ag based heterogeneous catalysts, and the best performance observed in patents and academic research approaches or just exceeds 90% selectivity to EO, CO2 being the other, unwanted byproduct. This process has an uncommonly low single pass conversion in industrial chemistry and requires the reactants and products to be separated and recycled in an uncommonly large recycle stream into the entrance of the reactor to create a continuous process. The separation and recycle steps are extremely energy intensive, inspiring decades of efforts to efficiently improve EO selectivity and conversion. Because of the scale of this process, improving EO selectivity by even a few percent would represent a substantial improvement to the costs, energy usage, and CO2 emissions involved in EO production.",
    "advantages": "Achieves >90% selectivity toward EO formation from gas phase ethylene and oxygen, at high ethylene conversions up to 12% Simplifies implementation as a drop-in replacement for conventional catalysts Sets a course for further optimization with more reactor testing",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/34013.html"
@@ -1932,43 +2081,6 @@
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/32583.html"
   },
   {
-   "tech_id": "32550",
-   "title": "Suppression of Proteotoxicity for the Treatment of Neurodegenerative Diseases",
-   "summary": "Suppresses protein-misfolding cell death, a therapeutic approach for retinal and neurodegenerative disease",
-   "disclosed_year": 2022,
-   "uc_case": "2022-758-0",
-   "fields": [
-    "Biotechnology",
-    "Medical"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Health",
-    "Medical",
-    "Disease: Ophthalmology and Optometry",
-    "Other",
-    "Therapeutics"
-   ],
-   "inventors": [
-    "Acosta Alvear, Diego F.",
-    "Guo, Xiaoran",
-    "Montell, Denise"
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Published Application 20250000945 01/02/2025 2022-758",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Published Application",
-     "number": "20250000945",
-     "dated": "01/02/2025",
-     "case": "2022-758"
-    }
-   ],
-   "description": "The accumulation of misfolded proteins can activate endoplasmic reticulum (ER) stress responses and cellular degeneration. For example, the most common cause of retinal degeneration in humans is a mutation in the gene that encodes rhodopsin, which causes the protein to fold improperly. Rhodopsin is a membrane protein that is essential for phototransduction in the visual system of all animals. Misfolded rhodopsin accumulates over time in photoreceptor cells, causing chronic proteotoxicity and ER stress that cannot be mitigated by the cell’s homeostasis systems, which ultimately leads to photoreceptor cell death and vision loss. Preventing the accumulation of the misfolded rhodopsin and ER stress would have a direct and significant impact on treating retinal degradation and other neurodegenerative diseases in which protein misfolding leads to chronic proteotoxicity.",
-   "advantages": "Suppresses cell death induced by unrelenting ER stress caused by chronic proteotoxicity due to misfolded rhodopsin Applicable to multiple areas of therapeutic interest in protein misfolding disease",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/32550.html"
-  },
-  {
    "tech_id": "32493",
    "title": "Molten Salt Chemical Looping Process for Efficient Chlorine Production from HCl",
    "summary": "Molten-salt looping process that efficiently converts waste HCl into valuable chlorine",
@@ -1987,8 +2099,16 @@
     "Su, Shizhao",
     "Tangeysh, Behzad"
    ],
-   "patent_status": "Patent Pending",
-   "patents": [],
+   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 12,589,996 03/31/2026 2019-967",
+   "patents": [
+    {
+     "country": "United States Of America",
+     "type": "Issued Patent",
+     "number": "12,589,996",
+     "dated": "03/31/2026",
+     "case": "2019-967"
+    }
+   ],
    "description": "Hydrogen chloride (HCl) is a waste product in several industrial processes at massive scale, such as in the preparation of isocyanates which are crucial to many industries. One way to repurpose HCl waste is to upcycle it into chlorine (Cl2), a valuable starting material used in industrial chemistry. Current methods of converting HCl to Cl2 include the Deacon Process, an equilibrium reaction that consists of the aerobic oxidation of HCl to Cl2 and water. A disadvantage to all single-stage Deacon Process concepts is the expensive workup (i.e. separation of Cl2 from other products in the equilibrium mixture). More efficient continuous processes do exist. Both the two-stage process and the three-stage process involve molten salt-based chemical looping with three interconnected reactors containing reactive salts. However, these processes can be challenging, due to the requirement for circulation of the melt in all multiple reactors simultaneously.",
    "advantages": "Upcycles a common waste product More efficient Cl2 workup compared to current HCl conversion technologies Low energy consumption",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/32493.html"
@@ -2032,38 +2152,6 @@
    "description": "Morphogenesis is the biological process that causes a cell, tissue or organism to develop its shape. Understanding the morphogenesis of human embryos is a fundamental question in the physics of life with strong medical implications. 3D human stem cell cultures (organoids) capable of recapitulating selected aspects of human organ formation have greatly advanced our understanding of cell fate during organ formation. However, organoids still yield unreproducible and anatomically incorrect tissue shapes and cell fate patterns. Additional systems are used to apply stem cells into scalable, controlled and functional tissues, but these systems limit their shape and do not allow for self-organization as in embryonic development. Thus, new approaches are required in order to study human organ morphogenesis.",
    "advantages": "Solves the reproducibility challenge of stem-cell cultures by applying surface micro-patterning Overcomes limitations of animal studies in human organogenesis Does not require support from other systems to complete the integration of stem cells Compatible with live imaging and genetic manipulations",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/32445.html"
-  },
-  {
-   "tech_id": "32332",
-   "title": "New Class of Bitter Taste Receptor in Mammals",
-   "summary": "Newly identified mammalian bitter taste receptor for screening flavor and palatability modulators",
-   "disclosed_year": 2021,
-   "uc_case": "2021-874-0",
-   "fields": [
-    "Biotechnology"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Food"
-   ],
-   "inventors": [
-    "Chandel, Avinash",
-    "Montell, Craig",
-    "Zhan, Yinpeng"
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Published Application 20240142474 05/02/2024 2021-874",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Published Application",
-     "number": "20240142474",
-     "dated": "05/02/2024",
-     "case": "2021-874"
-    }
-   ],
-   "description": "Opsins are G protein-coupled receptors (GPCRs) best known as light sensors; however, GPCRs are central to the perception of taste and olfaction, as well as light. Gustatory perception is the result of the expression of multiple types of GPCR taste receptors, and in humans, there are twenty-five known taste receptors for detection of bitter taste. A large suite of in vitro tools for measuring chemosensory properties of chemical entities is being developed, wherein GPCR taste-sensitive proteins are used to identify and evaluate the gustatory taste attributes of tastant ligands. The food and beverage industry, medical industry, and health and beauty industry rely on the chemosensory properties of their products; flavor and smell are of critical importance. Massive efforts are expended to ensure that products have appealing taste and smell. Sensory perceptions are integral to the global flavors and fragrances market that is estimated at over $25 billion dollars per year.",
-   "advantages": "Enables activation and modulation of a previously undiscovered mammalian taste receptor Provides in vitro expression systems for efficient high throughput screening of taste modulators Targets specific bitter flavonoids to improve palatability in foods and oral products Expands understanding of taste biology by revealing evolutionary conserved opsin roles beyond photoreception",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/32332.html"
   },
   {
    "tech_id": "32316",
@@ -2130,13 +2218,13 @@
     "Squires, Todd",
     "Tan, Huanshu"
    ],
-   "patent_status": "Country Type Number Dated Case United States Of America Published Application 20230285973 09/14/2023 2021-553",
+   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 12,623,221 05/12/2026 2021-553",
    "patents": [
     {
      "country": "United States Of America",
-     "type": "Published Application",
-     "number": "20230285973",
-     "dated": "09/14/2023",
+     "type": "Issued Patent",
+     "number": "12,623,221",
+     "dated": "05/12/2026",
      "case": "2021-553"
     }
    ],
@@ -2212,8 +2300,8 @@
      "case": "2021-551"
     }
    ],
-   "description": "P-type gallium nitride (p-GaN) is difficult to contact electrically and has a low hole concentration and mobility in conventional commercial III-nitride LEDs. This means that p-GaN cannot be used as a current spreading layer and that traditional p-contacts will add significant voltage to devices. Despite these inherent problems, all commercial light emitting devices utilize traditional p-contacts and materials other than p-GaN for current spreading, which typically involves a high barrier for tunneling. Unfortunately, current approaches to reduce the tunneling barrier are associated with losses, either in terms of voltage or resistance increases, or optical losses in the final device performance. These penalties exist even in smaller LED devices such as mini-LEDs and micro-LEDs.",
-   "advantages": "Low forward voltage Reduced tunnel junction depletion width Increased tunnel probability",
+   "description": "Current commercial III-nitride light emitting diodes (LEDs) and laser diodes (LDs) employ the use of an n-type region and a p-type region to form a diode. However, p-type gallium nitride (p-GaN) is difficult to contact electrically and has low hole concentration and mobility. As a result, p-GaN cannot be used as a current spreading layer, and traditional p-contacts will add significant voltage to devices. All commercial light emitting devices utilize traditional p-contacts and materials other than p-GaN for current spreading, which typically involves a high barrier for tunneling. Current methods to reduce the tunneling barrier are associated with losses, either in terms of voltage or resistance increases or optical losses in the final device performance.",
+   "advantages": "Low and stable forward voltage Simplified fabrication process using consistent MOCVD growth with minimal complexity Improved current spreading via tunnel junctions on both device sides Higher output power performance compared to traditional p-contact LEDs Enables cascaded μLEDs with integrated multicolor emission (blue, green, red) Stable voltage performance across varying device sizes, supporting commercialization",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/32270.html"
   },
   {
@@ -2235,13 +2323,13 @@
     "Silverstein, Ravit",
     "Zok, Frank"
    ],
-   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Reference for National Filings WO2022150184. 10/20/2022 2020-721   Patent Pending",
+   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 12,577,172 03/17/2026 2020-721",
    "patents": [
     {
-     "country": "Patent Cooperation Treaty",
-     "type": "Reference for National Filings",
-     "number": "WO2022150184.",
-     "dated": "10/20/2022",
+     "country": "United States Of America",
+     "type": "Issued Patent",
+     "number": "12,577,172",
+     "dated": "03/17/2026",
      "case": "2020-721"
     }
    ],
@@ -2452,7 +2540,7 @@
      "case": "2017-99F"
     }
    ],
-   "description": "Current state-of-the-art optoelectronic devices are based on either lattice-matched or biaxially strained wurtzite III-nitride materials. Their performance is limited by the low hole conductivity in group-III nitride materials, which is due in part to the high relative hole mass in nitrides, resulting in a very low hole mobility. Decreasing the holes’ effective mass results in significant performance improvements in photonic devices.",
+   "description": "Current state-of-the-art optoelectronic devices are based on either lattice-matched or biaxially strained wurtzite III-nitride materials. Their performance is limited by the low hole conductivity in group-III nitride materials, which is due in part to the high relative hole mass in nitrides, resulting in a very low hole mobility. Decreasing the holes’ effective mass provides for higher hole mobility, resulting in significant performance improvements in photonic devices, suggesting a need for new methods to increase hole mobility.",
    "advantages": "Hole Mobility increased by 4x in initial experiments Enables GaN based CMOS High Frequency and high current devices",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/31884.html"
   },
@@ -2526,43 +2614,6 @@
    "description": "GaN substrates produce high quality III-nitride devices, but the substrate itself is expensive. Recycling the GaN layer would provide substantial cost-saving opportunities. Existing methods of removing devices from their substrates have demonstrated damage to the semiconductor layers or require an arduous etching process which dilutes the benefits of recycling the substrate at all.",
    "advantages": "Drastic cost reduction in GaN substrates via recycling Smooth cleaving surfaces Quick processing",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/31802.html"
-  },
-  {
-   "tech_id": "31762",
-   "title": "III-Nitride Tunnel Junction LED with High Wall Plug Efficiency",
-   "summary": "Tunnel-junction LED reaching over 70% efficiency without transparent oxides or mirrors",
-   "disclosed_year": 2017,
-   "uc_case": "2017-131-0",
-   "fields": [
-    "Energy",
-    "Semiconductors"
-   ],
-   "categories": [
-    "Energy",
-    "Lighting",
-    "Semiconductors",
-    "Design and Fabrication"
-   ],
-   "inventors": [
-    "DenBaars, Steven P.",
-    "Nakamura, Shuji",
-    "Speck, James S.",
-    "Yonkee, Benjamin P.",
-    "Young, Erin C."
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 11,164,997 11/02/2021 2017-131",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Issued Patent",
-     "number": "11,164,997",
-     "dated": "11/02/2021",
-     "case": "2017-131"
-    }
-   ],
-   "description": "Commercially-available III-nitride light-emitting diodes (LEDs) use an active region in a biased p-n junction to allow for electron and hole injection. The p-GaN is difficult to contact electrically and has low hole concentration and mobility. This means that p-GaN cannot be used as a current spreading layer and that traditional p-contacts will add significant voltage to devices. Despite these inherent problems, all commercial light emitting devices utilize a p-contact and a material other than p-GaN for current spreading, typically transparent conducting oxides (TCO).",
-   "advantages": "Improved light extraction Improved energy efficiency (over 70%) No requirement for TCOs or mirrors",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/31762.html"
   },
   {
    "tech_id": "31747",
@@ -3031,76 +3082,6 @@
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/29480.html"
   },
   {
-   "tech_id": "29210",
-   "title": "Vertical Cavity Surface-Emitting Lasers with Continuous Wave Operation",
-   "summary": "III-nitride VCSEL with continuous-wave operation and fully polarized emission",
-   "disclosed_year": 2018,
-   "uc_case": "2018-250-0",
-   "fields": [
-    "Communications",
-    "Energy",
-    "Imaging"
-   ],
-   "categories": [
-    "Communications",
-    "Other",
-    "Energy",
-    "Lighting",
-    "Imaging",
-    "3D/Immersive"
-   ],
-   "inventors": [
-    "DenBaars, Steven P.",
-    "Forman, Charles A.",
-    "Kearns, Jared A.",
-    "Lee, SeungGeun",
-    "Nakamura, Shuji",
-    "Speck, James S.",
-    "Young, Erin C."
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 11,532,922 12/20/2022 2018-250",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Issued Patent",
-     "number": "11,532,922",
-     "dated": "12/20/2022",
-     "case": "2018-250"
-    }
-   ],
-   "description": "An m -plane VCSEL with an active region that has thick quantum wells and operation in continuous wave.",
-   "advantages": "III-nitride VCSEL with continuous wave operation 100% polarized VCSEL emission",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/29210.html"
-  },
-  {
-   "tech_id": "29148",
-   "title": "Algorithm for Diabetes Management and Control",
-   "summary": "Algorithm for automated insulin dosing that improves glucose control in type 1 diabetes",
-   "disclosed_year": 2016,
-   "uc_case": "2016-315-0",
-   "fields": [
-    "Medical"
-   ],
-   "categories": [
-    "Medical",
-    "Other"
-   ],
-   "inventors": [],
-   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 10,878,964 12/29/2020 2016-315",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Issued Patent",
-     "number": "10,878,964",
-     "dated": "12/29/2020",
-     "case": "2016-315"
-    }
-   ],
-   "description": "With the increase of diabetes around the globe, the need for automated and accurate administration of insulin to patients with type 1 diabetes is also increasing. Continuous glucose monitoring (CGM) systems track blood sugar levels by using a small sensor inserted under the skin to provide real-time glucose readings, trends, and alerts. The CGM market is expected to grow, as the number of people diagnosed with type 1 diabetes continues to rise. Safe and efficient software for CGM and artificial pancreas systems is crucial for the success of this field.",
-   "advantages": "Enables automatic glucose regulation Reduces hypoglycemic events Provides better glucose control Allows glucose control while patients are asleep",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/29148.html"
-  },
-  {
    "tech_id": "28868",
    "title": "Reconfigurable Physically Unclonable Function (PUF) Based Security",
    "summary": "Reconfigurable hardware security primitive resisting physical and machine-learning attacks",
@@ -3185,83 +3166,6 @@
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/28855.html"
   },
   {
-   "tech_id": "28737",
-   "title": "Drift-Free and Calibration-Free Measurement of Analytes",
-   "summary": "Electrochemical biosensors that work without calibration and resist drift in complex fluids",
-   "disclosed_year": 2017,
-   "uc_case": "2017-607-0",
-   "fields": [
-    "Biotechnology",
-    "Medical"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Other",
-    "Medical"
-   ],
-   "inventors": [
-    "Dauphin Ducharme, Philippe",
-    "Li, Hui",
-    "Ortega Quintanilla, Gabriel",
-    "Plaxco, Kevin W."
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 11,946,098 04/02/2024 2017-607",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Issued Patent",
-     "number": "11,946,098",
-     "dated": "04/02/2024",
-     "case": "2017-607"
-    }
-   ],
-   "description": "A method of achieving the calibration- and drift-free operation of voltammetric electrochemical biosensors.",
-   "advantages": "Calibration-free operation reduces the need for high precision fabrication Calibration-free operation reduces end user burden and costs Increased measurement reliability Long-duration measurements in complex media",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/28737.html"
-  },
-  {
-   "tech_id": "27642",
-   "title": "Drift-Free, Self-Calibrated Interrogation Method For Electrochemical Sensors Based On Electron Transfer Kinetics",
-   "summary": "Self-calibrating interrogation method for electrochemical sensors, removing prior calibration",
-   "disclosed_year": 2017,
-   "uc_case": "2017-248-0",
-   "fields": [
-    "Biotechnology",
-    "Sensors & Instrumentation"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Other",
-    "Sensors & Instrumentation",
-    "Biosensors",
-    "Scientific/Research"
-   ],
-   "inventors": [
-    "Arroyo, Netz",
-    "Plaxco, Kevin W."
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 12,257,050 03/25/2025 2017-248 United States Of America Published Application 20250235130 07/24/2025 2017-248",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Issued Patent",
-     "number": "12,257,050",
-     "dated": "03/25/2025",
-     "case": "2017-248"
-    },
-    {
-     "country": "United States Of America",
-     "type": "Published Application",
-     "number": "20250235130",
-     "dated": "07/24/2025",
-     "case": "2017-248"
-    }
-   ],
-   "description": "A new method using chronoamperometry in place of voltammetry to obtain data from electrochemical sensors, including electrochemical biosensors.",
-   "advantages": "No need for prior calibration of individual sensors",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/27642.html"
-  },
-  {
    "tech_id": "27609",
    "title": "Highly Stretchable & Flexible Electronic Sensors",
    "summary": "Highly stretchable, durable electronic sensors made cheaply from twisted conductive microtubes",
@@ -3291,8 +3195,8 @@
      "case": "2017-470"
     }
    ],
-   "description": "A new approach to creating highly stretchable electronic devices using twisted conductive microtubules.",
-   "advantages": "Highly stretchable electronic interconnects Simple fabrication approach will result in very low production costs Small, compact, and multifunctional Low modulus with high stretchability and durability Control of mechanical performance & electronic sensitivity",
+   "description": "Stretchable and flexible multifunctional electronic components, including sensors and actuators, have received increasing attention in robotics, electronics, wearable, and healthcare applications. Electrical and mechanical stability are required for soft and stretchable devices, and despite advances it has remained challenging to design analogs of many electronic components to be highly stretchable, efficient to fabricate, and to provide control over electronic performance. There is a need for efficient fabrication methods and design techniques that lead to durable devices whose performance can be tuned to meet application requirements.",
+   "advantages": "Highly stretchable (>400%) and flexible electronic interconnects and sensors Simple, scalable, and low-cost fabrication method using common tools Adjustable mechanical and electronic sensitivity via twisting and pre-tensioning Compact, multifunctional, and reliable with fast response and long durability Can detect strain, pressure, rotation, and tactile stimuli simultaneously",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/27609.html"
   },
   {
@@ -3406,46 +3310,6 @@
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/27412.html"
   },
   {
-   "tech_id": "27402",
-   "title": "A Structure For Increasing Mobility In A High-Electron-Mobility Transistor",
-   "summary": "Transistor structure boosting electron mobility for high-frequency power devices",
-   "disclosed_year": 2017,
-   "uc_case": "2017-462-0",
-   "fields": [
-    "Nanotechnology",
-    "Semiconductors"
-   ],
-   "categories": [
-    "Nanotechnology",
-    "Electronics",
-    "Semiconductors",
-    "Design and Fabrication"
-   ],
-   "inventors": [
-    "Ahmadi, Elaheh",
-    "Guidry, Matthew",
-    "Keller, Stacia",
-    "Li, Haoran",
-    "Mishra, Umesh K.",
-    "Romanczyk, Brian R.",
-    "Wienecke, Steven",
-    "Zheng, Xun"
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 11,101,379 08/24/2021 2017-462",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Issued Patent",
-     "number": "11,101,379",
-     "dated": "08/24/2021",
-     "case": "2017-462"
-    }
-   ],
-   "description": "A technique that results in a significant increase of electron mobility and sheet charge density at small channel thickness.",
-   "advantages": "Increased electron mobility Improved device performance (94 GHz)",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/27402.html"
-  },
-  {
    "tech_id": "27237",
    "title": "Orthogonal Mode Laser Gyro",
    "summary": "Compact ring laser gyroscope that senses small rotations without frequency lock-up",
@@ -3525,42 +3389,6 @@
    "description": "A low-cost, highly scalable approach to integrating a compound-semiconductor laser or light source with silicon-photonic circuitry.",
    "advantages": "Cost reduction",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/27119.html"
-  },
-  {
-   "tech_id": "27069",
-   "title": "Dual-Labeled E-AB Platform for Continuous, Real-Time Monitoring of Small Molecules",
-   "summary": "Dual-reporter sensor correcting drift to continuously monitor small molecules in whole blood",
-   "disclosed_year": 2016,
-   "uc_case": "2016-99",
-   "fields": [
-    "Biotechnology",
-    "Medical"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Other",
-    "Medical"
-   ],
-   "inventors": [
-    "Arroyo, Netz",
-    "Kang, Di",
-    "Li, Hui",
-    "Plaxco, Kevin W.",
-    "Ricci, Francesco"
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Issued Patent 11,202,587 12/21/2021 2016-99M",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Issued Patent",
-     "number": "11,202,587",
-     "dated": "12/21/2021",
-     "case": "2016-99M"
-    }
-   ],
-   "description": "A dual-reporter correction to enhance the performance of electrochemical aptamer-based sensors in whole blood.",
-   "advantages": "Corrects for sensor drift in flowing whole blood Baseline drift corrections for more than 20 hours",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/27069.html"
   },
   {
    "tech_id": "26025",
@@ -4285,7 +4113,7 @@
    "about": "Specialty shoe designer and manufacturer."
   },
   {
-   "company": "Liquideon/Cage Bio/inTumo",
+   "company": "Cage Bio",
    "status": "Active",
    "founded": 2015,
    "industry": "Healthcare",
@@ -4541,20 +4369,6 @@
    ],
    "website": "https://www.acelot.com/",
    "about": "Drug discovery."
-  },
-  {
-   "company": "C-Zero (Graphitic Energy)",
-   "status": "Active",
-   "founded": 2020,
-   "industry": "Energy",
-   "licenses_ucsb_ip": true,
-   "capital_raised": "$65.57M",
-   "capital_raised_musd": 65.57,
-   "founders": [
-    "Eric McFarland"
-   ],
-   "website": "www.graphitic.com",
-   "about": "Natural gas decarbonizing."
   },
   {
    "company": "ViQi",
@@ -6150,6 +5964,62 @@
    ],
    "website": "https://www.profoldbio.com/",
    "about": "Bringing precision therapies to patients faster."
+  },
+  {
+   "company": "Flucta",
+   "status": "Active",
+   "founded": 2026,
+   "industry": "Information Technology",
+   "licenses_ucsb_ip": false,
+   "capital_raised": null,
+   "capital_raised_musd": null,
+   "founders": [
+    "Kerem Camsari"
+   ],
+   "website": "https://flucta.ai/",
+   "about": "Commercializing probabilistic computing hardware for AI inference."
+  },
+  {
+   "company": "TerraFirma Robotics",
+   "status": "Active",
+   "founded": 2026,
+   "industry": "Information Technology",
+   "licenses_ucsb_ip": false,
+   "capital_raised": null,
+   "capital_raised_musd": null,
+   "founders": [
+    "Jake Eisaguirre"
+   ],
+   "website": "https://www.terrafirma-robotics.com/",
+   "about": "Designs and manufactures AI-powered drones."
+  },
+  {
+   "company": "Qolab",
+   "status": "Active",
+   "founded": 2022,
+   "industry": "Information Technology",
+   "licenses_ucsb_ip": false,
+   "capital_raised": "$70.70M",
+   "capital_raised_musd": 70.7,
+   "founders": [
+    "John Martinis"
+   ],
+   "website": "https://qolab.ai/",
+   "about": "Develops quantum computing hardware."
+  },
+  {
+   "company": "Nurture Bio Labs",
+   "status": "Active",
+   "founded": 2026,
+   "industry": "Life Sciences",
+   "licenses_ucsb_ip": false,
+   "capital_raised": null,
+   "capital_raised_musd": null,
+   "founders": [
+    "Charles Frazier"
+   ],
+   "website": null,
+   "about": "Research and development in the field of epigenomics."
   }
  ]
 }

@@ -359,22 +359,86 @@ def fetch_tech_detail(session, tid):
     }
 
 
-def enrich_with_details(session, rows, delay=0.15, verbose=False):
-    keys = ("uc_case", "case_year", "inventors", "description", "advantages",
-            "patent_status", "categories", "patents", "patent_numbers")
-    n = len(rows)
-    for i, r in enumerate(rows, 1):
+DETAIL_KEYS = ("uc_case", "case_year", "inventors", "description", "advantages",
+               "patent_status", "categories", "patents", "patent_numbers")
+
+
+def enrich_with_details(session, rows, delay=0.15, verbose=False, workers=1,
+                        deadline=None, skip_enriched=False, track_progress=False):
+    """Attach detail-page fields to each row of `rows`, in place.
+
+    workers        >1 fetches detail pages concurrently, each thread using its
+                   own requests.Session (Session is not guaranteed thread-safe).
+    deadline       optional time.monotonic() value; stop starting new fetches
+                   once passed. Rows already done carry `_enriched: True`, so a
+                   later call with skip_enriched=True resumes where this left off.
+    skip_enriched  skip rows already marked `_enriched`.
+    track_progress keep the `_enriched` marker on the returned rows. Off by
+                   default so emitted JSON keeps its documented shape; only the
+                   resumable refresh pipeline needs the marker persisted.
+    """
+    todo = [r for r in rows if not (skip_enriched and r.get("_enriched"))]
+    n = len(todo)
+
+    def _finish():
+        if not track_progress:
+            for r in rows:
+                r.pop("_enriched", None)
+        return rows
+
+    if not n:
+        return _finish()
+
+    def _one(sess, r):
         try:
-            d = fetch_tech_detail(session, r["id"])
-            for k in keys:
+            d = fetch_tech_detail(sess, r["id"])
+            for k in DETAIL_KEYS:
                 r[k] = d.get(k)
+            r.pop("error", None)
         except Exception as e:  # noqa: BLE001
             r["error"] = str(e)
-        if verbose and (i % 25 == 0 or i == n):
-            sys.stderr.write(f"[ucsbie] details {i}/{n}\n")
+        r["_enriched"] = True
+
+    def _expired():
+        return deadline is not None and time.monotonic() > deadline
+
+    if workers <= 1:
+        for i, r in enumerate(todo, 1):
+            if _expired():
+                break
+            _one(session, r)
+            if verbose and (i % 25 == 0 or i == n):
+                sys.stderr.write(f"[ucsbie] details {i}/{n}\n")
+            if delay:
+                time.sleep(delay)
+        return _finish()
+
+    import threading
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    local = threading.local()
+
+    def _task(r):
+        s = getattr(local, "sess", None)
+        if s is None:
+            s = local.sess = make_session()
         if delay:
             time.sleep(delay)
-    return rows
+        _one(s, r)
+
+    done = 0
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futs = {ex.submit(_task, r): r for r in todo}
+        for f in as_completed(futs):
+            done += 1
+            if verbose and (done % 25 == 0 or done == n):
+                sys.stderr.write(f"[ucsbie] details {done}/{n} "
+                                 f"({workers} workers)\n")
+            if _expired():
+                for g in futs:
+                    g.cancel()
+                break
+    return _finish()
 
 
 # ============================ STARTUPS ===================================== #

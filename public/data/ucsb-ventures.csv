@@ -1,6 +1,6 @@
 company,status,founded,industry,licenses_ucsb_ip,capital_raised,capital_raised_musd,founders,website,about
 Cadense,Active,2021,Healthcare,True,$1.69M,1.69,Tyler Susko; Elliot Hawkes,https://cadense.com/,Specialty shoe designer and manufacturer.
-Liquideon/Cage Bio/inTumo,Active,2015,Healthcare,True,$57.6M,57.6,Samir Mitragotri,https://cagebio.com/,Ionic liquid platform as a delivery system.
+Cage Bio,Active,2015,Healthcare,True,$57.6M,57.6,Samir Mitragotri,https://cagebio.com/,Ionic liquid platform as a delivery system.
 Cayuga,Active,2015,Healthcare,True,$1.5M,1.5,Galen Stucky; Damien Kudela,https://cayugabiotech.com/,Faster blood clotting.
 Integrated Biosciences,Active,2022,Healthcare,True,$17.2M,17.2,Max Wilson,https://integratedbiosciences.com/,Molecule therapeutic discovery.
 Vector Free,Active,2025,Healthcare,True,$0.0M,0.0,Craig Montell; David Aguila,https://www.vectorfreeinc.com/,Insect repellent.
@@ -18,7 +18,6 @@ Active Life Scientific,Active,2010,Healthcare,True,$8.24M,8.24,Paul Hansma,https
 Ingantec,Active,2022,Business Products & Services,True,$2.15M,2.15,Chirag Gupta,https://www.ingantec.com/,MicroLED technology.
 Celestial AI,Acquired,2020,Information Technology,True,$588.87M,588.87,John Bowers,https://www.marvell.com/,AI computing platform.
 Acelot,Active,2006,Healthcare,True,$24.17M,24.17,Ambuj Singh,https://www.acelot.com/,Drug discovery.
-C-Zero (Graphitic Energy),Active,2020,Energy,True,$65.57M,65.57,Eric McFarland,www.graphitic.com,Natural gas decarbonizing.
 ViQi,Active,2025,Information Technology,True,$1.5M,1.5,Christian Lang,www.viqiai.com,Image analysis software.
 AppScale,Active,2012,Information Technology,True,$2.9M,2.9,Chandra Krintz,www.appscale.com,Hybrid cloud software platform.
 CytomX Therapeutics,Active,2008,Healthcare,True,$422.0M,422.0,Patrick Daugherty,www.cytomx.com,Oncology-focused biopharmaceuticals.
@@ -136,3 +135,7 @@ Olaplex,Acquired,2014,Consumer Products & Services,False,,,Craig Hawker,https://
 Blue Laser Fusion,Active,2022,Information Technology,False,$62.80M,62.8,Shuji Nakamura,https://bluelaserfusion.com/,Energy management company.
 UltraBright Photonics,-,,Information Technology,False,,,Galan Moody,,-
 ProFoldBio,Active,2025,Information Technology,False,,,Erica Keane Rivera; Samuel Lobo,https://www.profoldbio.com/,Bringing precision therapies to patients faster.
+Flucta,Active,2026,Information Technology,False,,,Kerem Camsari,https://flucta.ai/,Commercializing probabilistic computing hardware for AI inference.
+TerraFirma Robotics,Active,2026,Information Technology,False,,,Jake Eisaguirre,https://www.terrafirma-robotics.com/,Designs and manufactures AI-powered drones.
+Qolab,Active,2022,Information Technology,False,$70.70M,70.7,John Martinis,https://qolab.ai/,Develops quantum computing hardware.
+Nurture Bio Labs,Active,2026,Life Sciences,False,,,Charles Frazier,,Research and development in the field of epigenomics.

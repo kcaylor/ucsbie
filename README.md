@@ -19,8 +19,9 @@ docs/                    USING-WITH-AI.md, DISTRIBUTION.md, gem-instructions.md,
 ```
 
 ## Use it with your AI tool
-See **docs/USING-WITH-AI.md** — three levels from "upload two CSVs into a Gemini Gem"
-(no code) to "register the MCP server" (developer). Gemini-first, but covers ChatGPT and Claude.
+**Foolproof guide (copy-paste, links + download buttons):** https://ucsbie.vercel.app/use-with-ai.html
+
+Source for that page is `public/use-with-ai.html`; a plain-markdown version is in `docs/USING-WITH-AI.md`. Three levels from "upload two CSVs into a Gemini Gem" (no code) to "register the MCP server" (developer). Gemini-first; covers ChatGPT and Claude.
 
 ## CLI quick start
 ```bash

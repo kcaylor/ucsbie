@@ -20,3 +20,6 @@ node_modules/
 # Stray Vercel-CLI artifacts (not part of the app; vercel.json drives the build)
 package.json
 package-lock.json
+
+# Scratch
+_to_delete/

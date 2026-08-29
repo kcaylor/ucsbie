@@ -143,6 +143,7 @@ legend{float:left;margin-right:7px;font-size:12px;font-weight:700;text-transform
  <h1>Innovation Marketplace</h1>
  <p>Explore technologies available for licensing and ventures emerging from UC&nbsp;Santa&nbsp;Barbara.</p>
  <p class="contact">Questions or interest? Contact UC Santa Barbara's Innovation &amp; Entrepreneurship Team: <a href="mailto:info@innovation.ucsb.edu">info@innovation.ucsb.edu</a></p>
+ <p class="contact"><a href="https://ucsbie.vercel.app/use-with-ai.html">&#9656;&nbsp; Use this data in your own AI assistant (Gemini, ChatGPT, Claude) &rarr;</a></p>
 </header>
 <div class="draftbar" role="note"><strong>Draft preview.</strong> Built from public UC Santa Barbara data for feedback — not an official UC Santa Barbara page. Data updated __DATE__. Feedback: <a href="mailto:caylor@ucsb.edu?subject=UC%20Santa%20Barbara%20Innovation%20Marketplace%20feedback">caylor@ucsb.edu</a></div>
 <nav class="tablist" role="tablist" aria-label="Choose a view">

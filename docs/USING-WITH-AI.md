@@ -1,3 +1,5 @@
+> 🔗 **Live, copy-paste version with buttons:** https://ucsbie.vercel.app/use-with-ai.html
+
 # Using UCSB I&E data in your AI tools
 
 Three ways in, by how technical you want to get. Everyone can do Level 1.

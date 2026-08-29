@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Use UCSB Innovation Data in Your AI Assistant</title>
+<style>
+:root{--navy:#003660;--navy2:#09508a;--gold:#febc11;--ink:#1c2530;--bg:#f5f7fa;--card:#fff;--line:#d4dbe6;--grey:#586273;--focus:#0a5fd6;--code:#0e1b2a}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:16px;line-height:1.55}
+a{color:var(--navy2)}a:hover{text-decoration:underline}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:5px}
+.skip-link{position:absolute;left:8px;top:-44px;background:var(--navy);color:#fff;padding:10px 14px;border-radius:0 0 8px 8px;z-index:60;transition:top .15s;font-weight:700}
+.skip-link:focus{top:0;text-decoration:none}
+header{background:linear-gradient(120deg,var(--navy),#062c4d);color:#fff;padding:22px 32px;border-bottom:4px solid var(--gold)}
+header h1{margin:0;font-size:23px;font-weight:800}
+header p{margin:6px 0 0;color:#eef4fb;font-size:14px}
+header a{color:var(--gold);font-weight:700}
+.wrap{max-width:880px;margin:0 auto;padding:26px 24px 80px}
+h2{font-size:20px;color:var(--navy);margin:34px 0 6px;padding-top:10px;border-top:1px solid var(--line)}
+h2 .star{color:var(--gold)}
+h3{font-size:15px;color:var(--navy);margin:18px 0 6px}
+.lead{font-size:16px;color:#33405a}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:18px 0}
+.toc ul{margin:6px 0 0;padding-left:20px}.toc li{margin:3px 0}
+.tier{display:grid;grid-template-columns:1fr;gap:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:16px 0}
+.tier div{padding:10px 14px;border-bottom:1px solid var(--line);font-size:14px}
+.tier div:last-child{border-bottom:none}
+.tier b{color:var(--navy)}
+ol{padding-left:22px}ol li{margin:7px 0}
+.snip{position:relative;background:var(--code);border-radius:10px;margin:10px 0;border:1px solid #21364a}
+.snip pre{margin:0;padding:14px 16px;overflow:auto;color:#e7eef7;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}
+.snip .copy{position:absolute;top:8px;right:8px;background:var(--gold);color:#332600;border:none;border-radius:7px;padding:6px 12px;font-size:12.5px;font-weight:700;cursor:pointer}
+.snip .copy:hover{background:#ffca3a}
+.snip .copy:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.dl{display:inline-block;background:var(--navy);color:#fff;border-radius:8px;padding:9px 14px;font-size:14px;font-weight:600;text-decoration:none;margin:4px 8px 4px 0}
+.dl:hover{background:var(--navy2);text-decoration:none;color:#fff}
+.dl.ghost{background:#eaf0f8;color:var(--navy);border:1px solid #cdd9ea}
+.note{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0}
+.live{position:fixed;bottom:0;left:0;width:1px;height:1px;overflow:hidden}
+code.inl{background:#e8eef7;border:1px solid #d4dbe6;border-radius:5px;padding:1px 5px;font-family:ui-monospace,Menlo,monospace;font-size:13px}
+footer{max-width:880px;margin:0 auto;padding:0 24px 60px;font-size:13px;color:var(--grey)}
+footer a{color:var(--navy2)}
+</style></head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header>
+  <h1>Use UCSB Innovation Data in Your AI Assistant</h1>
+  <p>Put UCSB's technologies-for-licensing and ventures data into Gemini, ChatGPT, or Claude — copy-paste, no coding required. &nbsp;·&nbsp; <a href="https://ucsbie.vercel.app/">← Back to the Marketplace</a></p>
+</header>
+<main id="main"><div class="wrap">
+
+<p class="lead">Pick the row that matches your tool. Everyone can do <strong>Level 1</strong> in about 5 minutes. Every file and link you need is on this page with a <strong>Copy</strong> button or a download button.</p>
+
+<div class="tier">
+  <div><b>Level 1 — Upload / paste</b> · a chatbot that knows our portfolio · Gemini Gem, ChatGPT, Claude · ~5 min, no code</div>
+  <div><b>Level 2 — Connect the live API</b> · always-current via the web · Custom GPT Action, Gemini · ~15 min</div>
+  <div><b>Level 3 — MCP server / CLI</b> · real-time tools in an agent · Claude, Gemini CLI, ChatGPT dev mode · developer</div>
+</div>
+
+<nav class="toc" aria-label="Contents">
+  <strong>On this page</strong>
+  <ul>
+    <li><a href="#files">The data files (download these)</a></li>
+    <li><a href="#paste">Quickest start — paste one line</a></li>
+    <li><a href="#gemini">Google Gemini Gem ⭐</a></li>
+    <li><a href="#chatgpt">ChatGPT (Custom GPT)</a></li>
+    <li><a href="#claude">Claude (Project)</a></li>
+    <li><a href="#api">Live API (Custom GPT Action / Gemini)</a></li>
+    <li><a href="#mcp">MCP server (developers)</a></li>
+    <li><a href="#cli">Command-line tool (developers)</a></li>
+  </ul>
+</nav>
+
+<h2 id="files">The data files</h2>
+<p>Public data, refreshed monthly. Download what you need:</p>
+<p>
+  <a class="dl" href="https://ucsbie.vercel.app/data/ucsb-technologies.csv" download>⬇ Technologies (CSV)</a>
+  <a class="dl" href="https://ucsbie.vercel.app/data/ucsb-ventures.csv" download>⬇ Ventures (CSV)</a>
+  <a class="dl ghost" href="https://ucsbie.vercel.app/data/ucsb-ie.json" download>⬇ Everything (JSON)</a>
+  <a class="dl ghost" href="https://ucsbie.vercel.app/data/DATA-DICTIONARY.md" target="_blank">📖 What the fields mean</a>
+</p>
+<div class="note">Tip for Gemini &amp; ChatGPT: put the two CSVs in Google Drive and add them to your Gem <em>from Drive</em> — then they auto-update each month with no re-upload.</div>
+
+<h2 id="paste">Quickest start — paste one line</h2>
+<p>In any assistant that can open links (Gemini, ChatGPT, Claude), paste this:</p>
+<div class="snip"><button class="copy" onclick="cp(this)">Copy</button><pre><code>Use the UCSB innovation data at https://ucsbie.vercel.app/data/ucsb-ie.json to answer my questions about UCSB technologies available for licensing and UCSB ventures. When I'm interested in licensing a technology, tell me to contact info@innovation.ucsb.edu with the technology title and Tech ID.</code></pre></div>
+
+<h2 id="gemini">Google Gemini Gem <span class="star">⭐</span></h2>
+<p>UCSB's licensed AI. Best no-code option.</p>
+<ol>
+  <li>Go to <a href="https://gemini.google.com/gems/create" target="_blank">Gemini → Gems → New Gem</a>.</li>
+  <li>Name it <code class="inl">UCSB Innovation Assistant</code>.</li>
+  <li>In <strong>Instructions</strong>, paste this:
+    <div class="snip"><button class="copy" onclick="cp(this)">Copy</button><pre><code>You are the UCSB Innovation Assistant. You help people explore technologies available for licensing from UC Santa Barbara and ventures that have emerged from UCSB research, using the attached UCSB data.
+
+- Answer questions about UCSB technologies available for licensing and UCSB ventures: what exists in a field, inventors/founders, disclosure year, patent status, company status/sector/funding.
+- When asked "what's available in &lt;field&gt;", list relevant technologies with Tech ID, a one-line summary, and disclosure year. For ventures, give status, sector, founding year, and disclosed capital.
+- Distinguish a technology's AGE (disclosed year, from the UC case) from its RECENCY on the marketplace (higher Tech ID). Note that category counts overlap.
+- Distinguish UCSB Startups (license UCSB IP) from UCSB Affiliated Startups (no UCSB IP license) when relevant.
+- Ground every answer in the provided data. If something isn't in the data, say so and point to the source.
+
+Connecting people:
+- For licensing interest, tell the user to contact UCSB's Innovation & Entrepreneurship team at info@innovation.ucsb.edu and include the technology title and Tech ID. Offer to draft that email.
+- For investor/partner interest in a venture, suggest the company website (if listed) and an introduction via info@innovation.ucsb.edu. Offer to draft the outreach.
+
+Tone: concise, accurate, helpful. This is public information; for anything authoritative, defer to info@innovation.ucsb.edu.</code></pre></div>
+  </li>
+  <li>Under <strong>Knowledge → Add files</strong>, upload both CSVs (download above): <code class="inl">ucsb-technologies.csv</code> and <code class="inl">ucsb-ventures.csv</code>. (A Gem accepts up to 10 files.)</li>
+  <li>Save. Try: <em>"What battery technologies can we license?"</em> or <em>"Which active healthcare startups raised the most?"</em></li>
+</ol>
+
+<h2 id="chatgpt">ChatGPT — Custom GPT</h2>
+<ol>
+  <li>Go to <a href="https://chatgpt.com/gpts/editor" target="_blank">ChatGPT → Explore GPTs → Create</a>.</li>
+  <li>Paste the same instructions from the Gemini section (the <strong>Copy</strong> button above works here too).</li>
+  <li>Under <strong>Knowledge</strong>, upload the two CSVs. (For always-current data instead, use the Action in the next section.)</li>
+</ol>
+
+<h2 id="claude">Claude — Project</h2>
+<ol>
+  <li>Create a <a href="https://claude.ai/projects" target="_blank">Claude Project</a> (or just drop files into any chat).</li>
+  <li>Add <code class="inl">ucsb-technologies.csv</code> + <code class="inl">ucsb-ventures.csv</code> (or <code class="inl">ucsb-ie.json</code>) to Project knowledge.</li>
+  <li>Paste the instructions from the Gemini section.</li>
+</ol>
+
+<h2 id="api">Live API — always current (Custom GPT Action / Gemini)</h2>
+<p>The site exposes a small read-only API. Try these in a browser:</p>
+<p>
+  <a class="dl ghost" href="https://ucsbie.vercel.app/api/technologies?field=Semiconductors" target="_blank">/api/technologies?field=Semiconductors</a>
+  <a class="dl ghost" href="https://ucsbie.vercel.app/api/ventures?status=Active&licensed=true" target="_blank">/api/ventures?status=Active&amp;licensed=true</a>
+  <a class="dl ghost" href="https://ucsbie.vercel.app/api/categories" target="_blank">/api/categories</a>
+</p>
+<h3>Add it to a Custom GPT (Action)</h3>
+<ol>
+  <li>In the GPT editor → <strong>Actions</strong> → <strong>Import</strong>, paste this schema URL:</li>
+</ol>
+<div class="snip"><button class="copy" onclick="cp(this)">Copy</button><pre><code>https://ucsbie.vercel.app/openapi.yaml</code></pre></div>
+<p>No authentication needed — it's public data. For Gemini, feed the same OpenAPI operations to the Gemini API as function declarations.</p>
+
+<h2 id="mcp">MCP server — real-time tools in your agent (developers)</h2>
+<p>One server works in Claude Desktop/Code, the Gemini CLI, and ChatGPT developer mode / OpenAI Agents SDK.</p>
+<div class="snip"><button class="copy" onclick="cp(this)">Copy</button><pre><code>pip install "mcp>=1.2" requests
+git clone https://github.com/kcaylor/ucsbie.git
+python ucsbie/mcp/ucsbie_mcp.py</code></pre></div>
+<h3>Register it (Claude Desktop / Claude Code)</h3>
+<div class="snip"><button class="copy" onclick="cp(this)">Copy</button><pre><code>{
+  "mcpServers": {
+    "ucsbie": { "command": "python", "args": ["/ABS/PATH/ucsbie/mcp/ucsbie_mcp.py"] }
+  }
+}</code></pre></div>
+<h3>Register it (Gemini CLI — <code class="inl">~/.gemini/settings.json</code>)</h3>
+<div class="snip"><button class="copy" onclick="cp(this)">Copy</button><pre><code>{
+  "mcpServers": {
+    "ucsbie": { "command": "python", "args": ["/ABS/PATH/ucsbie/mcp/ucsbie_mcp.py"] }
+  }
+}</code></pre></div>
+<p>Replace <code class="inl">/ABS/PATH</code> with where you cloned the repo. Tools: <code class="inl">tech_list</code>, <code class="inl">tech_get</code>, <code class="inl">tech_search</code>, <code class="inl">tech_categories</code>, <code class="inl">startups_list</code>.</p>
+
+<h2 id="cli">Command-line tool (developers)</h2>
+<div class="snip"><button class="copy" onclick="cp(this)">Copy</button><pre><code>pip install requests
+git clone https://github.com/kcaylor/ucsbie.git && cd ucsbie
+python -m ucsbie tech search "photonics" --details
+python -m ucsbie startups list --filter licensed --format csv --out ventures.csv</code></pre></div>
+<p>JSON by default; add <code class="inl">--format csv</code> or <code class="inl">--format table</code>, and <code class="inl">--out FILE</code>.</p>
+
+<div class="live" role="status" aria-live="polite" id="livemsg"></div>
+</div></main>
+<footer>
+  <p><strong>Repository:</strong> <a href="https://github.com/kcaylor/ucsbie" target="_blank">github.com/kcaylor/ucsbie</a> &nbsp;·&nbsp; <strong>Marketplace:</strong> <a href="https://ucsbie.vercel.app/">ucsbie.vercel.app</a> &nbsp;·&nbsp; <strong>Data dictionary:</strong> <a href="https://ucsbie.vercel.app/data/DATA-DICTIONARY.md" target="_blank">fields explained</a></p>
+  <p>Public data from the UCOP technology-transfer portal and the TIA Startup Database. Questions: <a href="mailto:info@innovation.ucsb.edu">info@innovation.ucsb.edu</a> · Feedback on this tool: <a href="mailto:caylor@ucsb.edu">caylor@ucsb.edu</a>. Draft / for feedback — not an official UCSB page.</p>
+</footer>
+<script>
+function cp(btn){
+  var code = btn.parentElement.querySelector('code, pre');
+  var text = code.innerText;
+  function done(){ var o=btn.textContent; btn.textContent='Copied ✓';
+    document.getElementById('livemsg').textContent='Copied to clipboard';
+    setTimeout(function(){ btn.textContent=o; },1800); }
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(done, function(){fallback(text);done();});
+  } else { fallback(text); done(); }
+}
+function fallback(text){
+  var ta=document.createElement('textarea'); ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+  document.body.appendChild(ta); ta.focus(); ta.select();
+  try{ document.execCommand('copy'); }catch(e){}
+  document.body.removeChild(ta);
+}
+</script>
+</body></html>

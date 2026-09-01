@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-08-29",
+  "generated": "2026-09-01",
   "source_technologies": "https://techtransfer.universityofcalifornia.edu/default?campus=SB",
   "source_ventures": "https://tia.ucsb.edu/startup-database/",
   "contact": "info@innovation.ucsb.edu",
@@ -431,30 +431,6 @@
    "description": "Monitoring progression is critical for effectively treating illnesses including cancer, Alzheimer’s disease, and heart disease. Oxidative stress, an imbalance of free radicals and antioxidants, leads to cell damage, which plays a role in many illnesses. Understanding the role of oxidative stress in disease progression is essential to the improvement of diagnostic imaging and targeted delivery. Peroxynitrite, a highly reactive oxygen and nitrogen species, has been linked to the onset and severity of oxidative stress, and its continual detection is crucial for real-time monitoring of disease progression. Unlike other redox biomarkers of oxidative stress, peroxynitrite is present only in diseased tissue, making it a powerful tool in disease detection. Benzopyrylium (BZP)-based two-photon fluorogenic probes offer promising selectivity, however small molecule designs are hampered by short detection lifetimes, poor solubility, narrow pH stability, limited modularity, and rapid clearance in vivo.",
    "advantages": "Continuous, real-time monitoring with prolonged detection lifetime High selectivity and broad pH stability for reliable sensing Fully water-soluble and biocompatible polymeric platforms Modular architecture for customized fluorophores and targeting ligands Programmable morphological changes for enhanced signal readouts Improved cytocompatibility compared to small-molecule probes Compatible with scalable polymer manufacturing processes Avoids mislabeling healthy tissue",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/34617.html"
-  },
-  {
-   "tech_id": "34614",
-   "title": "Advanced Biocatalytic Methods for the Synthesis of Non-Canonical Amino Acids and Amine Derivatives",
-   "summary": "Enzyme-based, two-step green synthesis of specialty amino acids for pharma protein engineering",
-   "disclosed_year": 2025,
-   "uc_case": "2025-367-0",
-   "fields": [
-    "Materials & Chemicals"
-   ],
-   "categories": [
-    "Materials & Chemicals",
-    "Biological"
-   ],
-   "inventors": [
-    "Liu, Huichong",
-    "Yang, Yang",
-    "Zhao, Liu-Peng"
-   ],
-   "patent_status": "Patent Pending",
-   "patents": [],
-   "description": "Non-canonical amino acids (ncAAs) and secondary and tertiary alkyl primary amines have multiple market applications including applications protein engineering, biological imaging, and therapeutics. The sustainable synthesis of traditionally underexploited ncAAs have been extensively sought after by the pharmaceutical industry, and there is a need for efficient synthesis.",
-   "advantages": "Efficient and stereoselective synthesis of complex ncAAs with tetrasubstituted α-stereocenters Protecting-group-free reaction conditions reduce synthesis complexity and waste Utilizes engineered enzymes evolved for improved activity and selectivity Enables enantioconvergent transformation of racemic organoboron substrates Alternative to toxic or harsh chemical synthesis methods Broad substrate scope and applicability for diverse ncAA building blocks",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/34614.html"
   },
   {
    "tech_id": "34602",
@@ -1244,138 +1220,6 @@
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/33515.html"
   },
   {
-   "tech_id": "33417",
-   "title": "Compositions, Systems, and Methods for Stereoselective Decarboxylative Radical Cyclization",
-   "summary": "Engineered light-driven enzymes that perform precise asymmetric chemical ring-forming reactions",
-   "disclosed_year": 2024,
-   "uc_case": "2024-843-0",
-   "fields": [
-    "Biotechnology"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Health",
-    "Other"
-   ],
-   "inventors": [
-    "Ju, Shuyun",
-    "Yang, Yang"
-   ],
-   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Published Application WO 2025/076360 04/10/2025 2024-843   Additional Patent Pending",
-   "patents": [
-    {
-     "country": "Patent Cooperation Treaty",
-     "type": "Published Application",
-     "number": "WO 2025/076360",
-     "dated": "04/10/2025",
-     "case": "2024-843"
-    }
-   ],
-   "description": "Due to their intriguing photophysical and photochemical activities, naturally occurring photoenzymes, which require a steady influx of light for catalysis, have long captivated biochemists and biocatalysis researchers. Although natural evolution has largely selected against photoenzymatic catalysis, the high-energy intermediates confined in photoenzymes provide fertile ground for creating novel photoenzymatic reactions through excited-state biocatalysis. The recent groundbreaking discovery and mechanistic elucidation of algae-derived fatty acid photodecarboxylases (FAPs) underscored their exceptional synthetic potential, as these flavin adenine dinucleotide (FAD)-dependent photoenzymes allow the efficient photodecarboxylation of abundant and/or easily accessible carboxylic acid substrates via a radical mechanism. Important previous work on FAPs has focused on expanding the substrate scope of their native photodecarboxylation activity, but, to- date, no new-to-nature activities of flavin-dependent FAPs have been developed.",
-   "advantages": "Allows the directed evolution of natural photoenzyme to enable asymmetric radical cyclization Offers powerful tools to tame the stereochemistry of free radical-mediated reactions",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/33417.html"
-  },
-  {
-   "tech_id": "33416",
-   "title": "Systems, Compositions And Methods Of Metalloprotein-Catalyzed Fluorination, Azidation, Thiocyanation and Hydroxylation",
-   "summary": "Engineered enzymes that add fluorine to molecules, easing synthesis of fluorinated drugs",
-   "disclosed_year": 2024,
-   "uc_case": "2024-841-0",
-   "fields": [
-    "Biotechnology"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Health",
-    "Other"
-   ],
-   "inventors": [
-    "Guo, Rui",
-    "Yang, Yang",
-    "Zhao, Liu-Peng"
-   ],
-   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Reference for National Filings WO 2025/038761 02/20/2025 2024-841   Patent Pending",
-   "patents": [
-    {
-     "country": "Patent Cooperation Treaty",
-     "type": "Reference for National Filings",
-     "number": "WO 2025/038761",
-     "dated": "02/20/2025",
-     "case": "2024-841"
-    }
-   ],
-   "description": "Over the past decade, groundbreaking studies on unnatural biocatalysis have transformed the biochemical landscape of natural enzymes to encompass biocatalytic reactions that have not previously been encountered in nature. Drawing inspiration from synthetic, organic, and organometallic chemistry, biocatalysis researchers have developed a range of novel nonnatural enzymatic activities. Together, these efforts substantially expanded the reaction capabilities of enzyme catalysis and furnished powerful tools for chemical synthesis. Despite these notable advances, nonnatural enzymatic processes for C-F bond formation have long eluded the biocatalysis community. The incorporation of fluorine into organic compounds can lead to enhanced bioavailability, metabolic stability, and desirable protein binding profiles. Due to the central importance of organofluorine compounds in the pharmaceutical and agrochemical industries, fluorine biocatalysis and synthetic biology has been a long-standing challenge. Additionally, it is beneficial to streamline the synthesis of molecular architecture, and it is desirable to provide enzymes and methods for C-H functionalization, in the presence of fluorine or exogenous anions, to access valuable organic compounds such as organofluorine compounds.",
-   "advantages": "Promotes new-to-nature C-H fluorination reactions with excellent efficiency Affords valuable tools for the biocatalytic synthesis of organofluorine compounds Has the potential to be applied in the biocatalytic synthesis of fluorine-containing drug small molecules",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/33416.html"
-  },
-  {
-   "tech_id": "33415",
-   "title": "Enzyme-Controlled Stereoselective Radical Cyclisation to Arenes Enabled by Metalloredox Biocatalysis",
-   "summary": "Engineered enzymes giving precise control over radical reactions to make valuable chiral compounds",
-   "disclosed_year": 2023,
-   "uc_case": "2023-854-0",
-   "fields": [
-    "Biotechnology"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Food",
-    "Health",
-    "Industrial/ Energy"
-   ],
-   "inventors": [
-    "Fu, Wenzhen",
-    "Neris, Natalia",
-    "Yang, Yang",
-    "Zhao, Yunlong"
-   ],
-   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Reference for National Filings WO 2024/138228 06/27/2024 2023-854   Patent Pending",
-   "patents": [
-    {
-     "country": "Patent Cooperation Treaty",
-     "type": "Reference for National Filings",
-     "number": "WO 2024/138228",
-     "dated": "06/27/2024",
-     "case": "2023-854"
-    }
-   ],
-   "description": "Biocatalysis is a critical topic that drives innovation in many industries including pharmaceuticals, energy, and agriculture. Until recently, only a small set of biochemistries from nature’s catalytic repertoire has been explored to synthesize a relatively narrow range of value-added compounds. The majority of privileged synthetic transformations, particularly those allowing for stereoselective C–C bond formation, are not present in the state-of-the-art biocatalytic toolbox. Advances from mechanistic enzymology and structural biology have furnished invaluable insights into the molecular mechanism and structural basis of enzymatic machineries, inspiring a campaign of repurposing and evolving natural enzymes to catalyze nonnatural reactions. However, achieving high levels of stereocontrol for free radical-mediated transformations has been a challenge in asymmetric biocatalysis.",
-   "advantages": "Enables access to useful chiral compounds that were previously unavailable or difficult to synthesize Excellent stereocontrol over fleeting free radical intermediates Provides green chemistry alternative to conventional manufacturing More efficient than traditional methods",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/33415.html"
-  },
-  {
-   "tech_id": "33414",
-   "title": "Compositions, Systems, and Methods for Stereoselective Synthesis of Non-Canonical Amino Acids",
-   "summary": "Enzyme-based synthesis of specialty amino acids with excellent stereochemical purity",
-   "disclosed_year": 2023,
-   "uc_case": "2023-880-0",
-   "fields": [
-    "Biotechnology"
-   ],
-   "categories": [
-    "Biotechnology",
-    "Health"
-   ],
-   "inventors": [
-    "Bo, Zhiyu",
-    "Cheng, Lei",
-    "Yang, Yang"
-   ],
-   "patent_status": "Country Type Number Dated Case Patent Cooperation Treaty Reference for National Filings WO 2024/148312 07/11/2024 2023-880   Patent Pending",
-   "patents": [
-    {
-     "country": "Patent Cooperation Treaty",
-     "type": "Reference for National Filings",
-     "number": "WO 2024/148312",
-     "dated": "07/11/2024",
-     "case": "2023-880"
-    }
-   ],
-   "description": "Biocatalysis is a promising mode of realizing previously inaccessible chemical reactions while imposing exquisite stereocontrol over the synthesis. Insights from synthetic chemistry and small molecule catalysis have enabled researchers to repurpose and evolve natural metalloenzymes, and flavin- and nicotinamide-dependent enzymes to catalyze stereoselective nonnatural reactions as well as processes mediated by carbon- and nitrogen-centered radicals. Collectively, these efforts significantly expanded the catalytic repertoire of enzymes that encompass synthetically valuable reactions not previously known in biology that can be applied to high-priority topics such as therapeutics and sustainable energy production. Despite these advances, it is essential to further develop general and synthetically-useful enzymatic activation modes that are both new-to-chemistry and new-to-biology.",
-   "advantages": "Allows diverse and valuable non-canonical amino acids to be prepared with excellent enantio- and diastereoselectivity New-to-nature and new-to-chemistry activation mode presents a powerful platform for further discovery",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/33414.html"
-  },
-  {
    "tech_id": "33308",
    "title": "Salt-Rejecting Continuous Passive Solar Thermal Desalination Via Thin-Film Condensation",
    "summary": "Passive solar still that continuously desalinates seawater without clogging from salt buildup",
@@ -1879,45 +1723,6 @@
    "description": "Robots have been engineered for efficient locomotion over ground, underwater, and through air. However, subterranean locomotion through granular media without previously formed paths or tunnels has proven difficult to achieve as the environmental interaction forces found underground exceed those found in water and air by orders of magnitude. A commonality of existing mechanical burrowing techniques is that they require a large axial force (reaction force), typically provided by an overhead mass, to overcome these environmental interaction forces. This is impractical for small, minimally invasive robots due to the heavy equipment required. Therefore, a burrowing mechanism that eliminates the need for a large reaction force in addition to overcoming the environmental interaction forces is highly desirable for minimally invasive burrowing applications, such as underground sensor placement for extraterrestrial exploration or for monitoring plant growth or soil conditions.",
    "advantages": "Tip-extension reduces soil disturbance compared to drilling or hammering Enables remote sensor placement in various granular media and organic soils with little or no reaction force Pneumatic tip extension enables robot to burrow faster than alternative mechanisms Ability to create hollow conduits for applications such as wire or irrigation line installation",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/32795.html"
-  },
-  {
-   "tech_id": "32665",
-   "title": "Engineered Metalloenzymes for Stereocontrolled Atom Transfer Radical Addition",
-   "summary": "Engineered enzymes that perform precise radical reactions to make chiral pharma and agro compounds",
-   "disclosed_year": 2021,
-   "uc_case": "2021-975-0",
-   "fields": [
-    "Agriculture & Animal Science",
-    "Biotechnology"
-   ],
-   "categories": [
-    "Agriculture & Animal Science",
-    "Chemicals",
-    "Plant Varieties",
-    "Biotechnology",
-    "Bioinformatics",
-    "Health",
-    "Other",
-    "Proteomics"
-   ],
-   "inventors": [
-    "Chin, Michael",
-    "Yang, Yang",
-    "Zhou, Qi"
-   ],
-   "patent_status": "Country Type Number Dated Case United States Of America Published Application 20240336943 10/10/2024 2021-975",
-   "patents": [
-    {
-     "country": "United States Of America",
-     "type": "Published Application",
-     "number": "20240336943",
-     "dated": "10/10/2024",
-     "case": "2021-975"
-    }
-   ],
-   "description": "Over the past three decades, the advent of directed evolution has enabled enhancements to catalytic activity and stereoselectivity through customized enzymes; demonstrating the potential of biocatalysis to revolutionize the practice of asymmetric synthesis. Until recently, however, the catalytic repertoire of enzymes has been mostly limited to reactions found in nature, posing constraints on the types of products available from enzyme catalysis. Furthermore, to date, a variety of catalysis modes discovered and optimized by synthetic chemists has remained out of reach of natural enzymes. It follows that bringing new catalytic functions to naturally-occurring enzymes can dramatically expand the repertoire of enzymology and generate novel biocatalysts applicable to fields such as pharmaceuticals and agrochemistry.",
-   "advantages": "Solves the difficulty of imposing enantio- and diastereocontrol over free radical-mediated bond forming processes Highly active at room temperature  Fully genetically encoded and ready to function in bacterial cells and cell-free lysates Enables efficient preparation of chiral small-molecule agents",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/32665.html"
   },
   {
    "tech_id": "32661",

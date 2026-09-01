@@ -23,3 +23,6 @@ package-lock.json
 
 # Scratch
 _to_delete/
+
+# Refresh checkpoint (regenerated each run)
+data/.refresh_state.json

@@ -1,12 +1,44 @@
 {
  "meta": {
-  "generated": "2026-09-01",
+  "generated": "2026-10-01",
   "source_technologies": "https://techtransfer.universityofcalifornia.edu/default?campus=SB",
   "source_ventures": "https://tia.ucsb.edu/startup-database/",
   "contact": "info@innovation.ucsb.edu",
   "note": "Public UCSB I&E data. Technologies available for licensing + UCSB ventures. Refreshed monthly."
  },
  "technologies": [
+  {
+   "tech_id": "34865",
+   "title": "Multi-Stage Magnesiothermic Reduction for Uniform Silicon Oxide Anodes \nEnhancing Lithium-Ion Battery Performance",
+   "summary": "Staged magnesium reduction yields uniform silicon oxide battery anodes with stable cycling from low-cost glass",
+   "disclosed_year": 2021,
+   "uc_case": "2021-972-0",
+   "fields": [
+    "Energy"
+   ],
+   "categories": [
+    "Energy",
+    "Storage/Battery"
+   ],
+   "inventors": [
+    "Hu, Xudong",
+    "Stucky, Galen D.",
+    "Zhao, Yang"
+   ],
+   "patent_status": "Country Type Number Dated Case United States Of America Published Application 20230108286 04/06/2023 2021-972",
+   "patents": [
+    {
+     "country": "United States Of America",
+     "type": "Published Application",
+     "number": "20230108286",
+     "dated": "04/06/2023",
+     "case": "2021-972"
+    }
+   ],
+   "description": "Silicon is one of the most promising anode materials to replace or complement the commercial graphite in lithium-ion batteries, due to its ten times the theoretical capacity of the graphite. The main challenges for silicon anodes are pulverization and instability of the solid-electrolyte interphase caused by the large volume change (∼300%) during cycling and undesirable side reactions between the active material and the electrolyte. Improving cycling stability is a key factor in silicon-based anode materials moving into the energy storage commercial market. It has been demonstrated that reducing the particle size to the nanoscale allows for silicon to withstand the (de)lithiation strains of the large volume change without fracture. However, nanosized silicon suffers from poor cycle life and low volumetric capacity density due to the unstable solid-electrolyte interphase and its low tap density.",
+   "advantages": "Fine control over silicon grain size resulting in smaller, more uniform particles Improved initial Coulombic efficiency (71.7%) and cycling stability (85.1% capacity retention over 100 cycles) Enhanced rate capability and consistent Coulombic efficiency during cycling Reduction of undesirable side reactions through silicon oxide matrix encapsulation Utilization of low-cost, abundant borosilicate precursors Elimination of the need for carbon-coating modifications Scalable and controllable production process suitable for commercial manufacturing",
+   "url": "https://techtransfer.universityofcalifornia.edu/NCD/34865.html"
+  },
   {
    "tech_id": "34831",
    "title": "Optogenetic Control of the Integrated Stress Response",
@@ -730,30 +762,6 @@
    "description": "Global demand for macroalage aquaculture is expected to grow significantly in the coming decade, as a sustainable food resource, a potential tool for marine carbon dioxide removal, a biofuel source, and a source of ingredients used in pharmaceuticals and cosmetics. Traditional commercial macroalgae monitoring is time, labor, and cost intensive, with manual inspection limited to surveying small areas and to shallow depths. Remote sensing using satellites has been used to monitor aquaculture installations, but it is not useful in the early growth stages or in subsurface observations. New quantitative tools for autonomous monitoring and maintenance are needed to ensure the growth and successful maturation of the macroalage industry. Advanced acoustic technologies such as side scan sonar (SSS) have long been established as a tool within the fishing industry, but sonar use in commercial macroalgae aquaculture has not been used extensively. Sonar allows for large-scale measurement of crop growth and remote assessment of infrastructure integrity and has the potential to be a significant component in autonomous monitoring of offshore aquaculture installations.",
    "advantages": "Enables autonomous monitoring of underwater aquaculture and infrastructure Allows for large-scale measurement of biomass and structural integrity Reduces operational costs and labor Permits observation of initial growth stages and subsurface conditions Operates effectively regardless of weather conditions",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/34324.html"
-  },
-  {
-   "tech_id": "34274",
-   "title": "Fluidic Camming for Grasping",
-   "summary": "Fluid-powered gripper that uses pulling force to grasp heavy or fragile objects and anchor securely",
-   "disclosed_year": 2025,
-   "uc_case": "2025-349-0",
-   "fields": [
-    "Engineering"
-   ],
-   "categories": [
-    "Engineering",
-    "Other",
-    "Robotics and Automation"
-   ],
-   "inventors": [
-    "Hawkes, Elliot",
-    "Seawright, Anders"
-   ],
-   "patent_status": "Patent Pending",
-   "patents": [],
-   "description": "Soft robotic grippers offer certain advantages for grasping objects and anchoring into environments compared to traditional rigid grippers. For instance, their conformability enables handling of delicate objects with simplified sensing and control, and their compliance allows them to be robust to impacts. However, soft grippers face two significant challenges: an inability to apply large grasping forces and the use of large and cumbersome pumps and power supplies, particularly for pneumatic systems. “Fluidic camming,” in which the force pulling on a gripper device pressurizes its actuating fluid, which, in turn, applies pressure to the grasped surface, offers a solution to these challenges. This technology is especially interesting for anchoring robots or humans to negative spaces in environments, such as cavities on a rock face, or as a gripper for gently manipulating a wide variety of both heavy and fragile objects.",
-   "advantages": "Reusable Easy to deploy and to remove Does not rely on consumables The non-slip design can accommodate a variety of applications and weights. Conforms to a wide range of cavity shapes & sizes",
-   "url": "https://techtransfer.universityofcalifornia.edu/NCD/34274.html"
   },
   {
    "tech_id": "34228",
@@ -3158,7 +3166,7 @@
   },
   {
    "tech_id": "27119",
-   "title": "Epitaxial Laser Integration on Silicon Based Substrates",
+   "title": "Practical and Commercially Viable Silicon-Photonic Systems",
    "summary": "Low-cost, scalable method to integrate compound-semiconductor lasers onto silicon photonics",
    "disclosed_year": 2016,
    "uc_case": "2016-912-0",
@@ -3191,8 +3199,8 @@
      "case": "2016-912"
     }
    ],
-   "description": "A low-cost, highly scalable approach to integrating a compound-semiconductor laser or light source with silicon-photonic circuitry.",
-   "advantages": "Cost reduction",
+   "description": "Silicon photonics have wide applicability that includes data center interconnects, high-performance computing, space-based communications, and sensing. However, the development of silicon-photonic integrated circuits has been limited by a number of factors. The high cost of compound-semiconductor substrates as compared to silicon-based substrates, as well as the incurrence of extra processing steps and processing complexity associated with the integration, has restricted the desirability, scalability, and commercial success of conventional approaches for integrating compound semiconductor devices and silicon-based integrated-optics substrates. As a result, there remains a need for a simple, low-cost approach to integrating compound-semiconductor devices and silicon-based integrated-optic substrates to form practical, commercially viable silicon-photonics systems.",
+   "advantages": "Significant cost reduction over conventional compound-semiconductor substrate methods Lower threshold currents enabling more efficient laser operation Improved temperature stability of lasing threshold Enhanced device longevity with longer lifetimes Highly scalable and compatible with existing silicon processing infrastructure",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/27119.html"
   },
   {
@@ -3260,8 +3268,8 @@
      "case": "2016-319"
     }
    ],
-   "description": "Photonic integrated circuit (PIC) comprised of an integrated non-reciprocal device that can be reversed, is monolithic, and can be integrated with lasers and modulators",
-   "advantages": "Reversible Reconfigurable Reduced cost",
+   "description": "Photonic Integrated Circuits (PICs) are optical systems that are integrated on a substrate, where the optical system includes a plurality of photonic functions, such as light generation, transmission, filtering, modulation, switching, and detection. PICs are analogous to electronic integrated circuits; however, they operate primarily in the optical domain. A typical PIC includes one or more photonic devices, which are combined with integrated-optics devices. Some highly desirable photonic devices have proven difficult to include in a PIC, including non-reciprocal devices, such as optical isolators, optical circulators, and Faraday rotators. Current non-reciprocal devices are relatively large, have fixed functionality, and require complex fabrication to integrate permanent magnetic material. Among the available circulators, none can be reversed. There is a demonstrable need for a simple, low loss, easily fabricated, reconfigurable non-reciprocal device suitable for integration in a PIC.",
+   "advantages": "Fully reversible and reconfigurable optical circulation Low optical loss enabling efficient signal transmission Monolithic integration compatible with existing PIC platforms Eliminates need for permanent magnetic materials in fabrication Rapid sub-nanosecond switching of optical port connectivity Reduced manufacturing cost and complexity",
    "url": "https://techtransfer.universityofcalifornia.edu/NCD/25991.html"
   },
   {
@@ -4349,8 +4357,8 @@
    "founded": 2022,
    "industry": "Information Technology",
    "licenses_ucsb_ip": true,
-   "capital_raised": "$0.1M",
-   "capital_raised_musd": 0.1,
+   "capital_raised": "$18M",
+   "capital_raised_musd": 18.0,
    "founders": [
     "Hector Andrade"
    ],
@@ -4952,11 +4960,11 @@
   {
    "company": "Delos Data",
    "status": "Active",
-   "founded": null,
+   "founded": 2025,
    "industry": "Business Products & Services",
    "licenses_ucsb_ip": false,
-   "capital_raised": null,
-   "capital_raised_musd": null,
+   "capital_raised": "$100M",
+   "capital_raised_musd": 100.0,
    "founders": [],
    "website": "https://delosdata.com/",
    "about": "IT consulting firm."
@@ -5705,8 +5713,8 @@
    "founded": 2024,
    "industry": "Information Technology",
    "licenses_ucsb_ip": false,
-   "capital_raised": "$24.09M",
-   "capital_raised_musd": 24.09,
+   "capital_raised": "$134M",
+   "capital_raised_musd": 134.0,
    "founders": [
     "William Wang"
    ],
